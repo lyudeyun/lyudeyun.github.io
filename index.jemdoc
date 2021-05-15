@@ -1,36 +1,40 @@
-# jemdoc: menu{MENU}{index.html}, nofooter  
-==Euhanna Ghadimi 
+# jemdoc: menu{MENU}{index.html}, nofooter
+#== Jin Shang | Ph.D.
+== Jin Shang
 
 ~~~
-{}{img_left}{photos/bio.jpg}{alt text}{131}{160}{http://people.kth.se/~euhanna/}
-PhD,\n [http://www.kth.se/ees/omskolan/organisation/avdelningar/ac?l=en_UK Automatic Control Department], \n[http://www.kth.se Royal Institute of Technology (KTH)]\n
-Osquldas v\&aumlg 10 \n
-100 44 Stockholm, Sweden \n 
-Phone: \+46 8 790 7000 \n
-Fax: \+46 8 790 7329\n
-E-post: /euhanna/ \[@\] kth \[DOT\] se
+{}{img_left}{photos/bio6.png}{alt text}{185px}{239px}
+[https://jshang2.github.io Jin Shang], Ph.D. \n 
+Senior Research Engineer at [https://www.us1.dgene.com/ DGene] \n
+Baton Rouge, Louisiana, United States \n
+\n
+Email: astrostell@gmail.com \n
+\[[https://scholar.google.com/citations?user=CIfBuzcAAAAJ&hl=en Google Scholar]\]\[[CV.pdf Curriculem Vitae]\] \n
 ~~~
+
+
+
+
+at Baton Rouge, Louisiana, USA. (March 19, 2021)
+#at Grand Isle State Park, Louisiana, USA. (Oct 6, 2018)
+
+#== News
+#- \[05-15-2020\] "List-wise fairness criterion for point processes" is accepted by KDD'20!
+#- \[05-04-2020\] Defended my Ph.D. dissertation titled "Predictive modeling of asynchronous event sequence data"!
+#- \[05-25-2019\] An extention of our ICDM'18 work "Local low-rank Hawkes processes for modeling temporal user-item interactions" is accepted by Knowledge and Information Systems(KAIS)!
+#- \[10-31-2018\] "Geometric Hawkes processes with graph convolutional recurrent neural networks" is accepted by AAAI'19! 
+#- \[08-18-2018\] "Local low-rank Hawkes processes for temporal user-item interactions" is accepted by ICDM'18!
+#- \[08-18-2018\] "Demographic inference via knowledge transfer in cross-domain recommender systems" is accepted by ICDM'18!
 
 == About me
-I received the B.S. and M.Sc. degrees in computer engineering from Iran University of Science and Technology ([http://www.iust.ac.ir IUST]), and the [http://ece.ut.ac.ir/ University of Tehran], Iran, in 2005 and 2008, respectively. In April 2015, I received the PhD degree in Telecommunications under the supervision of 
- [http://www.people.kth.se/~mikaelj/ Prof. Mikael Johansson] and  [http://www.people.kth.se/~carlofi/ Prof. Carlo Fischione] at [http:www.kth.se KTH].  
+I'm currently working at [https://www.us1.dgene.com/ DGene] as a senior research engineer. I got my Ph.D. in Computer Science at Louisiana State University, under the guidance of Dr. [http://csc.lsu.edu/~msun/ Mingxuan Sun]. My research focuses on developing computationally efficient machine learning as well as deep learning models and algorithms, with applications in recommender systems, time-series analysis, computer vision, computer graphics, and natural language processing.
 
-== Research
-My research interests include 
-- Convex Optimisation  
-- Distributed Algorithms
-- Real-time Sensor Networking
-- Wireless Networks
-- Machine Learning
+== Education 
+- Ph.D. in Computer Science, Louisiana State University, Aug. 2016 - Aug. 2020
+- M.S. in Solid Mechanics, University of Science and Technology of China, Sept. 2013 - Jun. 2016
+- B.S. in Theoretical and Applied Mechanics, University of Science and Technology of China, Sept. 2009 - Jun. 2013
 
-[research.html Find out more].
-=== Recent Publications 
-. E. Ghadimi, H. R. Feyzmahdavian, and M. Johansson, \"Global convergence of the heavy-ball method for convex optimization\",  In ECC'15: European Control Conference, 2015.
-. E. Ghadimi, A. Teixeira, I. Shames, and M. Johansson \" Optimal parameter selection for the alternating direction method of
-multipliers (ADMM): quadratic problems \", IEEE Transactions on Automatic Control, 2015. \[[http://arxiv.org/abs/1306.2454 arxiv]\]
-. E. Ghadimi, A. Teixeira, M. Rabbat, and M. Johansson, \"The ADMM algorithm for distributed averaging: Convergence rates and optimal parameter selection\", In Proceedings of the 48th Asilomar Conference on Signals, Systems and Computers, 2014. \[[https://www.dropbox.com/s/k9izxz1m39yvvuz/admm_distributed_aveg.pdf?dl=0 pdf] \]
-. E. Ghadimi, O. Landsiedel, P. Soldati, S. Duquennoy, and M. Johansson, \"Opportunistic Routing in Low Duty-Cycle Wireless Sensor Networks\", ACM Transactions on Senor Networks, 2014. \[[pub/oppTOSN.pdf pdf]\]
-
-[publications.html Full list of publications].
-\n
-[cv.pdf A brief cv].
+== Research Interests 
+- Statistical Machine Learning, Deep Learning, Point Process, Optimization, Fairness
+- Data Mining, Information Retrieval, Recommender System 
+- Computer Vision, Computer Graphics, Natural Language Processing
