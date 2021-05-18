@@ -1,14 +1,14 @@
 # jemdoc: menu{MENU}{index.html}, nofooter
-#== Jin Shang | Ph.D.
-== Jin Shang
+#== Deyun Lyu | Ph.D.
+== Deyun Lyu
 
 ~~~
-{}{img_left}{photos/bio6.png}{alt text}{185px}{239px}
-[https://jshang2.github.io Jin Shang], Ph.D. \n 
+{}{img_left}{photos/pic1.jpg}{alt text}{210px}{270px}
+[https://lyudeyun.github.io Deyun Lyu], Ph.D. \n 
 Senior Research Engineer at [https://www.us1.dgene.com/ DGene] \n
 Baton Rouge, Louisiana, United States \n
 \n
-Email: astrostell@gmail.com \n
+Email: lyu.deyun.107@s.kyushu-u.ac.jp \n
 \[[https://scholar.google.com/citations?user=CIfBuzcAAAAJ&hl=en Google Scholar]\]\[[CV.pdf Curriculem Vitae]\] \n
 ~~~
 
@@ -30,11 +30,10 @@ at Baton Rouge, Louisiana, USA. (March 19, 2021)
 I'm currently working at [https://www.us1.dgene.com/ DGene] as a senior research engineer. I got my Ph.D. in Computer Science at Louisiana State University, under the guidance of Dr. [http://csc.lsu.edu/~msun/ Mingxuan Sun]. My research focuses on developing computationally efficient machine learning as well as deep learning models and algorithms, with applications in recommender systems, time-series analysis, computer vision, computer graphics, and natural language processing.
 
 == Education 
-- Ph.D. in Computer Science, Louisiana State University, Aug. 2016 - Aug. 2020
-- M.S. in Solid Mechanics, University of Science and Technology of China, Sept. 2013 - Jun. 2016
-- B.S. in Theoretical and Applied Mechanics, University of Science and Technology of China, Sept. 2009 - Jun. 2013
+- Ph.D. in Advanced Information Technology, Kyushu University, Oct. 2020 - Present
+- M.S. in Software Engineering, Dalian University of Technology, Sept. 2018 - Jun. 2020
+- B.S. in Network Engineering, Dalian University of Technology, Sept. 2014 - Jun. 2018
 
 == Research Interests 
-- Statistical Machine Learning, Deep Learning, Point Process, Optimization, Fairness
-- Data Mining, Information Retrieval, Recommender System 
-- Computer Vision, Computer Graphics, Natural Language Processing
+- Falsification, Software Testing, Formal Verification, Cyber Physical System, Deep Learning
+- Computer Vision, Camera Calibration
