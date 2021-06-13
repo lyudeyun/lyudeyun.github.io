@@ -1,5 +1,4 @@
 # jemdoc: menu{MENU}{index.html}, nofooter
-#== Deyun Lyu | Ph.D.
 == Deyun Lyu
 
 ~~~
@@ -7,7 +6,7 @@
 [https://lyudeyun.github.io Deyun Lyu], Ph.D student
 Kyushu University \n 
 Fukuoka, Fukuoka, Japan \n
-\n
+
 Email: lyu.deyun.107@s.kyushu-u.ac.jp \n
 \[[https://scholar.google.com/citations?hl=zh-CN&user=8HQY-fQAAAAJ Google Scholar]\]\[[CV.pdf Curriculem Vitae]\] \n
 ~~~
@@ -15,8 +14,7 @@ Email: lyu.deyun.107@s.kyushu-u.ac.jp \n
 
 
 
-at Baton Rouge, Louisiana, USA. (March 19, 2021)
-#at Grand Isle State Park, Louisiana, USA. (Oct 6, 2018)
+at Tokyo, Japan. (Dec 29, 2020)
 
 #== News
 #- \[05-15-2020\] "List-wise fairness criterion for point processes" is accepted by KDD'20!
