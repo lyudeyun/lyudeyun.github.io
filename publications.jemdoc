@@ -2,17 +2,17 @@
 == Publications 
 
 === Conference
-- [https://ojs.aaai.org//index.php/AAAI/article/view/4416 Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness] \n [[pubs/GeometricHawkes.pdf Detailed Version]\] \n
+- [https://ojs.aaai.org//index.php/AAAI/article/view/4416 Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness] \[[pubs/CAV2021.pdf PDF]\] \n
 (acceptance rate: 1150/7095=16.21\%) \n
 Z. Zhang, *D. Lyu*, P. Arcaini, L. Ma, I. Hasuo, J. Zhao \n
 in Proc. of the 33th International Conference on Computer-Aided Verification (CAV), 2021 (Core A*)
-- [https://link.springer.com/chapter/10.1007/978-3-030-76384-8_24 On the Effectiveness of Signal Rescaling in Hybrid System Falsification] \[[https://github.com/choshina/FalSTAR-NFM Code]\] \n
+- [https://link.springer.com/chapter/10.1007/978-3-030-76384-8_24 On the Effectiveness of Signal Rescaling in Hybrid System Falsification] \[[pubs/NFM2021.pdf PDF]\] \[[https://github.com/choshina/FalSTAR-NFM Code]\] \n
 (short paper, total acceptance rate: 24/66=36.36\%) \n
 Z. Zhang, *D. Lyu*, P. Arcaini, L. Ma, I. Hasuo, J. Zhao \n
 in the 13th International Symposium, NFM 2021 Virtual Event, May 24–28, 2021
 
 === Journal
-- [https://link.springer.com/article/10.1007/s00165-021-00539-2 SDLV: Verification of Steering Angle Safety for Self-Driving Cars] \n
+- [https://link.springer.com/article/10.1007/s00165-021-00539-2 SDLV: Verification of Steering Angle Safety for Self-Driving Cars] \[[pubs/FAC2021.pdf PDF]\] \n
 H. Wu, *D. Lyu*, T. Cui, G. Hou, M. Watanabe, W. Kong \n
 in Formal Aspects of Computing (FAC), 2021: 1-17. (Core B)
 
