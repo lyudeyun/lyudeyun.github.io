@@ -2,8 +2,8 @@
 == Publications 
 
 === Conference
-- [https://ojs.aaai.org//index.php/AAAI/article/view/4416 Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness] \[[pubs/CAV2021.pdf PDF]\] \n
-(acceptance rate: 1150/7095=16.21\%) \n
+- [https://link.springer.com/chapter/10.1007/978-3-030-81685-8_29 Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness] \[[pubs/CAV2021.pdf PDF]\] \n
+(regular paper, total acceptance rate: 79/290=27.24\%) \n
 Z. Zhang, *D. Lyu*, P. Arcaini, L. Ma, I. Hasuo, J. Zhao \n
 in Proc. of the 33th International Conference on Computer-Aided Verification (CAV), 2021 (Core A*)
 - [https://link.springer.com/chapter/10.1007/978-3-030-76384-8_24 On the Effectiveness of Signal Rescaling in Hybrid System Falsification] \[[pubs/NFM2021.pdf PDF]\] \[[https://github.com/choshina/FalSTAR-NFM Code]\] \n
