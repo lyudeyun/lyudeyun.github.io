@@ -17,10 +17,10 @@ Email: lyu.deyun.107@s.kyushu-u.ac.jp \n
 at Tokyo, Japan. (Dec 29, 2020)
 
 == News
-- \[05-15-2020\] "List-wise fairness criterion for point processes" is accepted by KDD'20!
-- \[05-04-2020\] Defended my Ph.D. dissertation titled "Predictive modeling of asynchronous event sequence data"!
-- \[05-25-2019\] An extention of our ICDM'18 work "Local low-rank Hawkes processes for modeling temporal user-item interactions" is accepted by Knowledge and Information Systems(KAIS)!
-- \[10-31-2018\] "Geometric Hawkes processes with graph convolutional recurrent neural networks" is accepted by AAAI'19! 
+- \[08-20-2021\] "Time-Aware Coverage Criteria for Testing of AI-Enabled Hybrid Control Systems" is accepted by ASE2021 LBR.
+- \[04-20-2021\] "SDLV: Verification of Steering Angle Safety for Self-Driving Cars" is accepted by FAC2021.
+- \[04-18-2021\] "Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness" is accepted by CAV2021.
+- \[02-24-2021\] "On the Effectiveness of Signal Rescaling in Hybrid System Falsification" is accepted by NFM2021.
 
 == About me
 I am a second year PhD student in the Department of Information Science and Electrical Engineering, Kyushu University, under the guidance of Prof. [http://stap.ait.kyushu-u.ac.jp/~zhao/ Jianjun Zhao]. My research mainly focuses on the quality assurance of AI-enabled Cyber-physical systems (CPS) based on falsification and verification. 
