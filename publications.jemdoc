@@ -2,9 +2,10 @@
 == Publications 
 
 === Conference
-- [https://arxiv.org/pdf/2111.04324.pdf When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward] \[[pubs/ICSE2022_SEIP.pdf PDF]\] \n
+- [https://conf.researchr.org/track/icse-2022/icse-2022-seip---software-engineering-in-practice When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward] \[[pubs/ICSE2022_SEIP.pdf PDF]\] \n
+(SEIP - Software Engineering in Practice) \n
 J. Song^, *D. Lyu*^, Z. Zhang, Z. Wang, T. Zhang, L. Ma \n
-arXiv preprint arXiv:2111.04324
+in Proc. of the 44th International Conference on Software Engineering (ICSE), 2022 (Core A)
 - [https://link.springer.com/chapter/10.1007/978-3-030-81685-8_29 Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness] \[[pubs/CAV2021.pdf PDF]\] \n
 (regular paper, total acceptance rate: 79/290=27.24\%) \n
 Z. Zhang, *D. Lyu*, P. Arcaini, L. Ma, I. Hasuo, J. Zhao \n
