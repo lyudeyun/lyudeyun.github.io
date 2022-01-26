@@ -5,7 +5,7 @@
 - [https://conf.researchr.org/track/icse-2022/icse-2022-seip---software-engineering-in-practice When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward] \[[pubs/ICSE2022_SEIP.pdf PDF]\] \n
 (SEIP - Software Engineering in Practice) \n
 J. Song^, *D. Lyu*^, Z. Zhang, Z. Wang, T. Zhang, L. Ma \n
-in Proc. of the 44th International Conference on Software Engineering (ICSE), 2022 (Core A)
+in Proc. of the 44th International Conference on Software Engineering (ICSE), 2022 (Core A*)
 - [https://link.springer.com/chapter/10.1007/978-3-030-81685-8_29 Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness] \[[pubs/CAV2021.pdf PDF]\] \n
 (regular paper, total acceptance rate: 79/290=27.24\%) \n
 Z. Zhang, *D. Lyu*, P. Arcaini, L. Ma, I. Hasuo, J. Zhao \n
@@ -21,7 +21,7 @@ H. Wu, *D. Lyu*, Y. Zhang, G. Hou, M. Watanabe, J. Wang, W. Kong \n
 in IET Intelligent Transport Systems, 2022: 1–18. (CCF C)
 - [https://link.springer.com/article/10.1007/s00165-021-00539-2 SDLV: Verification of Steering Angle Safety for Self-Driving Cars] \[[pubs/FAC2021.pdf PDF]\] \n
 H. Wu, *D. Lyu*, T. Cui, G. Hou, M. Watanabe, W. Kong \n
-in Formal Aspects of Computing (FAC), 2021: 1-17. (Core B)
+in Formal Aspects of Computing (FAC), 2021: 1-17. (CCF B)
 
 === Patent
 - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111243032A& Checkerboard corner full-automatic detection method] \n
