@@ -25,7 +25,7 @@ at Tokyo, Japan. (Dec 29, 2020)
 - \[02-24-2021\] "On the Effectiveness of Signal Rescaling in Hybrid System Falsification" is accepted by NFM2021.
 
 == About me
-I am a second year PhD student in the Department of Information Science and Electrical Engineering, Kyushu University, under the guidance of Prof. [http://stap.ait.kyushu-u.ac.jp/~zhao/ Jianjun Zhao]. My research mainly focuses on the quality assurance of AI-enabled Cyber-physical systems (CPS) based on falsification and verification. 
+I am a second year PhD student in the Department of Information Science and Electrical Engineering, Kyushu University, under the guidance of Prof. [http://stap.ait.kyushu-u.ac.jp/~zhao/ Jianjun Zhao]. My research mainly focuses on the quality assurance of AI-enabled Cyber-physical systems (CPS). 
 
 == Education 
 - Ph.D. in Advanced Information Technology, Kyushu University, Oct. 2020 - Present
@@ -33,7 +33,7 @@ I am a second year PhD student in the Department of Information Science and Elec
 - B.S. in Network Engineering, Dalian University of Technology, Sept. 2014 - Jun. 2018
 
 == Research Interests 
-- Falsification, Software Testing, Formal Verification, Cyber Physical System, Deep Learning
+- Software Testing, Formal Methods, Cyber Physical System
 - Computer Vision, Camera Calibration
 
 == Visitors
