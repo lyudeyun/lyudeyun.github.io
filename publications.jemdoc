@@ -2,27 +2,33 @@
 == Publications 
 
 === Conference
-- [https://conf.researchr.org/track/icse-2022/icse-2022-seip---software-engineering-in-practice When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward] \[[pubs/ICSE2022_SEIP.pdf PDF]\] \n
+#  \[[pubs/ICSE2022_SEIP.pdf PDF]\]
+- [https://conf.researchr.org/track/icse-2022/icse-2022-seip---software-engineering-in-practice When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward] \n
 (SEIP - Software Engineering in Practice) \n
 J. Song^, *D. Lyu*^, Z. Zhang, Z. Wang, T. Zhang, L. Ma \n
 in Proc. of the 44th International Conference on Software Engineering (ICSE), 2022 (Core A*)
-- [https://link.springer.com/chapter/10.1007/978-3-030-81685-8_29 Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness] \[[pubs/CAV2021.pdf PDF]\] \n
+# \[[pubs/CAV2021.pdf PDF]\]
+- [https://link.springer.com/chapter/10.1007/978-3-030-81685-8_29 Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness] \n
 (regular paper, total acceptance rate: 79/290=27.24\%) \n
 Z. Zhang, *D. Lyu*, P. Arcaini, L. Ma, I. Hasuo, J. Zhao \n
 in Proc. of the 33th International Conference on Computer-Aided Verification (CAV), 2021 (Core A*)
-- [https://link.springer.com/chapter/10.1007/978-3-030-76384-8_24 On the Effectiveness of Signal Rescaling in Hybrid System Falsification] \[[pubs/NFM2021.pdf PDF]\] \[[https://github.com/choshina/FalSTAR-NFM Code]\] \n
+# \[[pubs/NFM2021.pdf PDF]\]
+- [https://link.springer.com/chapter/10.1007/978-3-030-76384-8_24 On the Effectiveness of Signal Rescaling in Hybrid System Falsification] \[[https://github.com/choshina/FalSTAR-NFM Code]\] \n
 (short paper, total acceptance rate: 24/66=36.36\%) \n
 Z. Zhang, *D. Lyu*, P. Arcaini, L. Ma, I. Hasuo, J. Zhao \n
 in the 13th International Symposium, NFM 2021 Virtual Event, May 24–28, 2021
 
 === Journal
-- [ FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \[[ PDF]\]\n
+# \[[ PDF]\]
+- [ FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \n
 Z. Zhang, *D. Lyu*, P. Arcaini, L. Ma, I. Hasuo, J. Zhao \n
 in IEEE Transactions on Software Engineering, 2022. (CCF A)
-- [https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/itr2.12162 An Verification Framework for Behavioral Safety of Self-Driving Cars] \[[pubs/IET_Intelligent_Transport_Systems2022.pdf PDF]\] \n
+# \[[pubs/IET_Intelligent_Transport_Systems2022.pdf PDF]\]
+- [https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/itr2.12162 An Verification Framework for Behavioral Safety of Self-Driving Cars] \n
 H. Wu, *D. Lyu*, Y. Zhang, G. Hou, M. Watanabe, J. Wang, W. Kong \n
 in IET Intelligent Transport Systems, 2022: 1–18. (CCF C)
-- [https://link.springer.com/article/10.1007/s00165-021-00539-2 SDLV: Verification of Steering Angle Safety for Self-Driving Cars] \[[pubs/FAC2021.pdf PDF]\] \n
+# \[[pubs/FAC2021.pdf PDF]\]
+- [https://link.springer.com/article/10.1007/s00165-021-00539-2 SDLV: Verification of Steering Angle Safety for Self-Driving Cars] \n
 H. Wu, *D. Lyu*, T. Cui, G. Hou, M. Watanabe, W. Kong \n
 in Formal Aspects of Computing (FAC), 2021: 1-17. (CCF B)
 
