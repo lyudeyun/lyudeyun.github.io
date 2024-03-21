@@ -1,6 +1,12 @@
 # jemdoc: menu{MENU}{experiences.html}, nofooter
 == Experiences
 
+
+== Research Experiences
+- Visiting Researcher at [https://www.nii.ac.jp/ National Institute of Informatics], Tokyo, Japan, September 2023 - February 2024 \n
+1. DNN Repair of AI-enabled cyber-physical systems \n
+Work with [https://group-mmm.org/~arcaini/ Paolo Arcaini] and [https://research.nii.ac.jp/~f-ishikawa/en/ Fuyuki Ishikawa], supported by the MIRAI-eAI Project.
+
 == Working Experiences
 - Junior Research Engineer at [ North Automatic Control Technology Institute], Taiyuan, China, June 2018 - September 2019 \n
 1. Corner Detection \n
@@ -12,7 +18,7 @@ Persent an infrared small target detection method based on depth map in complex 
 
 
 == Professional Services
-- Reviewer: [https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1sEXnn1Xjpe/pdf ICSE2021], ICML2022 \n
+- Reviewer: ICECCS2024, [https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1sEXnn1Xjpe/pdf ICSE2021], ICML2022 \n
 - PC Member: AAAI2024, AAAI2023 \n
 
 == Teaching Assistant Experiences
