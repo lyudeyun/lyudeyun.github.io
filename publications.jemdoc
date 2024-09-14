@@ -1,72 +1,81 @@
 # jemdoc: menu{MENU}{publications.html}, nofooter
-== Publications 
+== Publications
 
 === Conference
-#  \[[pubs/ICSE2022_SEIP.pdf PDF]\]
+- [https://dl.acm.org/doi/10.1145/3638529.3654078 Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications] \[[pubs/GECCO2024.pdf PDF]\] \[[https://github.com/lyudeyun/ContrRep Code]\]\n
+*D. Lyu*, Z. Zhang, P. Arcaini, F. Ishikawa, T. Laurent, J. Zhao \n
+The Genetic and Evolutionary Computation Conference (GECCO 2024)
 - [https://conf.researchr.org/track/icse-2022/icse-2022-seip---software-engineering-in-practice When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward] \n
 (SEIP - Software Engineering in Practice) \n
 J. Song^, *D. Lyu*^, Z. Zhang, Z. Wang, T. Zhang, L. Ma \n
-in Proc. of the 44th International Conference on Software Engineering (ICSE), 2022 (Core A*)
+The 44th International Conference on Software Engineering (ICSE SEIP 2022)
 # \[[pubs/CAV2021.pdf PDF]\]
 - [https://link.springer.com/chapter/10.1007/978-3-030-81685-8_29 Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness] \n
-(regular paper, total acceptance rate: 79/290=27.24\%) \n
 Z. Zhang, *D. Lyu*, P. Arcaini, L. Ma, I. Hasuo, J. Zhao \n
-in Proc. of the 33th International Conference on Computer-Aided Verification (CAV), 2021 (Core A*)
+The 33th International Conference on Computer-Aided Verification (CAV 2021)
 # \[[pubs/NFM2021.pdf PDF]\]
 - [https://link.springer.com/chapter/10.1007/978-3-030-76384-8_24 On the Effectiveness of Signal Rescaling in Hybrid System Falsification] \[[https://github.com/choshina/FalSTAR-NFM Code]\] \n
-(short paper, total acceptance rate: 24/66=36.36\%) \n
 Z. Zhang, *D. Lyu*, P. Arcaini, L. Ma, I. Hasuo, J. Zhao \n
-in the 13th International Symposium, NFM 2021 Virtual Event, May 24–28, 2021
+The 13th NASA Formal Methods Symposium (NFM 2021)
 
 === Journal
 # \[[ PDF]\]
 - [https://ieeexplore.ieee.org/abstract/document/9844247 FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \n
 Z. Zhang, *D. Lyu*, P. Arcaini, L. Ma, I. Hasuo, J. Zhao \n
-in IEEE Transactions on Software Engineering, 2022. (CCF A)
+IEEE Transactions on Software Engineering, 2023, 49(4): 1842 - 1859.
 # \[[pubs/IET_Intelligent_Transport_Systems2022.pdf PDF]\]
 - [https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/itr2.12162 An Verification Framework for Behavioral Safety of Self-Driving Cars] \n
 H. Wu, *D. Lyu*, Y. Zhang, G. Hou, M. Watanabe, J. Wang, W. Kong \n
-in IET Intelligent Transport Systems, 2022: 1–18. (CCF C)
+IET Intelligent Transport Systems, 2022, 16(5): 630-647.
 # \[[pubs/FAC2021.pdf PDF]\]
 - [https://link.springer.com/article/10.1007/s00165-021-00539-2 SDLV: Verification of Steering Angle Safety for Self-Driving Cars] \n
 H. Wu, *D. Lyu*, T. Cui, G. Hou, M. Watanabe, W. Kong \n
-in Formal Aspects of Computing (FAC), 2021: 1-17. (CCF B)
+Formal Aspects of Computing, 2021, 33, 325-341.
 
 === Workshop & Presentation & Poster
 # \[[ PDF]\]
 - [https://jssst2024.wordpress.com/ Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications] \[[pubs/JSSST41_Oral.pdf PDF]\] \n
-in トップカンファレンス・トップ論文誌特別講演, 日本ソフトウェア科学会第41回大会 (JSSST41), 2024, Osaka, Japan.
+Top Conference/Journal Special Talk (トップカンファレンス・トップ論文誌特別講演), 日本ソフトウェア科学会第41回大会 (JSSST 41), 2024, Osaka, Japan.
 - [https://fm2023.isp.uni-luebeck.de/index.php/co-located-events Towards Building Reliable AI-Enabled Cyber-Physical Systems] \[[pubs/FM2023_DS.pdf PDF]\] \n
-in Doctoral Symposium, FM2023.
-- [https://ieeexplore.ieee.org/abstract/document/9844247 FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \[[pubs/JSSST39_Poster.pdf PDF]\] \n
-in デモ・ポスターセッション, 日本ソフトウェア科学会第39回大会 (JSSST39), 2022, Nagoya, Japan.
+Doctoral Symposium, The 26th International Symposium on Formal Methods (FM 2023).
+- [https://jssst2022.wordpress.com/program/ FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \[[pubs/JSSST39_Poster.pdf PDF]\] \n
+Demo/Poster Session (デモ・ポスターセッション), 日本ソフトウェア科学会第39回大会 (JSSST 39), 2022, Nagoya, Japan.
 
 === Patent
-- [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111243032A& Checkerboard corner full-automatic detection method] \n
-Filing date: 2020\/01\/10 \n
-Application No.: CN202010027789.5 \n
-Name(s) of Inventor(s)): W, Kong, *D. Lyu*, W. Zhong, R. Liu, X. Fan, Z. Luo. \n 
-- [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111209877A& Infrared small target detection method based on depth map in complex scene] \n
-Filing date: 2020\/01\/10 \n
-Application No.: CN202010027793.1 \n
+- [https://patents.google.com/patent/US11900634B2/en Method for adaptively detecting chessboard sub-pixel level corner points] \n
+U.S. Patent No.: 11,900,634. \n
+Name(s) of Inventor(s)): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
+- [https://patents.google.com/patent/US20220148213A1/en Method for fully automatically detecting chessboard corner points] \n
+U.S. Patent Application No.: 17/442,937. \n
 Name(s) of Inventor(s)): W, Kong, *D. Lyu*, W. Zhong, R. Liu, X. Fan, Z. Luo. \n
-- [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111260731A& Adaptive sub-pixel checkerboard corners detection method] \n
-Filing date: 2020\/01\/10 \n
-Application No.: CN202010027812.0 \n
-Name(s) of Inventor(s)): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
-- [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111291747A& A depth-image based method for detecting small colored targets under complex scene] \n
-Filing date: 2020\/01\/10 \n
-Application No.: CN202010028302.5 \n
-Name(s) of Inventor(s)): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
-- [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111260732A& A corner detection method based on universal calibration board for visible-light and infrared camera] \n
-Filing date: 2020\/01\/10 \n
-Application No.: CN202010027822.4 \n
+- [https://patents.google.com/patent/US20220174256A1/en Method for infrared small target detection based on depth map in complex scene] \n
+U.S. Patent Application No.: 17/442,967. \n
 Name(s) of Inventor(s)): W, Kong, *D. Lyu*, W. Zhong, R. Liu, X. Fan, Z. Luo. \n
-- [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111242991A& A fast registration method for visible-light and infrared camera] \n
-Filing date: 2020\/01\/10 \n
-Application No.: CN202010027821.X \n
-Name(s) of Inventor(s)): *D. Lyu*, W. Zhong, W. Kong, R. Liu, X. Fan, Z. Luo. \n
-- [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111243033A& Method for optimizing external parameters of binocular camera] \n
-Filing date: 2020\/01\/10 \n
-Application No.: CN202010028307.8 \n
-Name(s) of Inventor(s)): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111243032A& Checkerboard corner full-automatic detection method] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010027789.5 \n
+# Name(s) of Inventor(s)): W, Kong, *D. Lyu*, W. Zhong, R. Liu, X. Fan, Z. Luo. \n 
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111209877A& Infrared small target detection method based on depth map in complex scene] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010027793.1 \n
+# Name(s) of Inventor(s)): W, Kong, *D. Lyu*, W. Zhong, R. Liu, X. Fan, Z. Luo. \n
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111260731A& Adaptive sub-pixel checkerboard corners detection method] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010027812.0 \n
+# Name(s) of Inventor(s)): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111291747A& A depth-image based method for detecting small colored targets under complex scene] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010028302.5 \n
+# Name(s) of Inventor(s)): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111260732A& A corner detection method based on universal calibration board for visible-light and infrared camera] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010027822.4 \n
+# Name(s) of Inventor(s)): W, Kong, *D. Lyu*, W. Zhong, R. Liu, X. Fan, Z. Luo. \n
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111242991A& A fast registration method for visible-light and infrared camera] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010027821.X \n
+# Name(s) of Inventor(s)): *D. Lyu*, W. Zhong, W. Kong, R. Liu, X. Fan, Z. Luo. \n
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111243033A& Method for optimizing external parameters of binocular camera] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010028307.8 \n
+# Name(s) of Inventor(s)): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
