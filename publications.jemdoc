@@ -20,6 +20,9 @@ The 13th NASA Formal Methods Symposium (NFM 2021)
 
 === Journal
 # \[[ PDF]\]
+- [ Automated Generation of Benchmarks for Falsification of STL Specifications] \n
+Yipei Yan, *Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Jianjun Zhao \n
+IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2025. (to appear)
 - [ SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences] \n
 *Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Xiao-Yi Zhang, Fuyuki Ishikawa, Jianjun Zhao \n
 ACM Transactions on Software Engineering and Methodology, 2024. (to appear)

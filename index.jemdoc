@@ -14,6 +14,7 @@ Email: lyu.deyun.107@s.kyushu-u.ac.jp \n
 at Tokyo, Japan. (Dec 29, 2020)
 
 == News
+- \[11-03-2024\] "Automated Generation of Benchmarks for Falsification of STL Specifications" is accepted at TCAD 2025.
 - \[11-03-2024\] "SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences" is accepted at TOSEM 2024.
 - \[09-11-2024\] Give an oral presentation at the Top Conference/Journal Special Talk (トップカンファレンス・トップ論文誌特別講演), JSSST 2024.
 - \[06-13-2024\] Join AAAI 2025 as a PC Member.
@@ -44,8 +45,13 @@ I am a PhD candidate in the [https://www.isee.kyushu-u.ac.jp/ Department of Info
 - Software Testing, Formal Methods, Cyber-Physical Systems
 # - Computer Vision, Camera Calibration
 
-== Visitors
 ~~~
 {}{raw}
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=n&d=9oU5miR44bAnmmihj7y2aTWsxV-VZ_qsDpiTg7O-jqI'></script>
+<script defer data-domain="lyudeyun.github.io" src="https://plausible.io/js/script.js"></script>
 ~~~
+
+# == Visitors
+# ~~~
+# {}{raw}
+# <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=n&d=9oU5miR44bAnmmihj7y2aTWsxV-VZ_qsDpiTg7O-jqI'></script>
+# ~~~
