@@ -48,5 +48,15 @@ I am a PhD candidate in the [https://www.isee.kyushu-u.ac.jp/ Department of Info
 # == Visitors
 ~~~
 {}{raw}
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=n&d=9oU5miR44bAnmmihj7y2aTWsxV-VZ_qsDpiTg7O-jqI' style='display:none;'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=n&d=9oU5miR44bAnmmihj7y2aTWsxV-VZ_qsDpiTg7O-jqI'></script>
+<style>
+#clustrmaps {
+  position: absolute;   
+  left: -999999px;       
+  top: -999999px;     
+  width: 1px;          
+  height: 1px;         
+  overflow: hidden;    
+}
+</style>
 ~~~
