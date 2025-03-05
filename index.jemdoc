@@ -3,7 +3,7 @@
 
 ~~~
 {}{img_left}{photos/pic1.jpg}{alt text}{210px}{270px}
-[https://lyudeyun.github.io Deyun Lyu], Ph.D candidate \n
+[https://lyudeyun.github.io Deyun Lyu], Ph.D candidate\n
 Kyushu University \n 
 Fukuoka, Japan \n
 
@@ -14,46 +14,40 @@ Email: lyu.deyun.107@s.kyushu-u.ac.jp \n
 at Tokyo, Japan. (Dec 29, 2020)
 
 == News
-- \[11-03-2024\] "Automated Generation of Benchmarks for Falsification of STL Specifications" is accepted at TCAD 2025.
-- \[11-03-2024\] "SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences" is accepted at TOSEM 2024.
-- \[09-11-2024\] Give an oral presentation at the Top Conference/Journal Special Talk (トップカンファレンス・トップ論文誌特別講演), JSSST 2024.
-- \[06-13-2024\] Join AAAI 2025 as a PC Member.
-- \[03-22-2024\] "Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications" is accepted at GECCO 2024.
-- \[09-18-2023\] Join the National Institute of Informatics for a six-month research internship, supervised by Prof. Fuyuki ISHIKAWA and Paolo Arcaini.
-- \[07-13-2023\] Join AAAI 2024 as a PC Member.
-- \[02-08-2023\] "FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria" is accepted at ICSE 2023 as Journal-First Paper.
-- \[12-22-2022\] "Towards Building Reliable AI-Enabled Cyber-Physical Systems" is accepted at the Doctoral Symposium, FM 2023.
-- \[08-31-2022\] Give a poster presentation at the Demo/Poster Session (デモ・ポスターセッション), JSSST 2022.
-- \[08-10-2022\] Join AAAI 2023 as a PC Member.
-- \[07-21-2022\] "FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria" is accepted at TSE 2022.
-- \[01-11-2022\] "When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward" is accepted at ICSE SEIP 2022.
-- \[01-08-2022\] "An Verification Framework for Behavioral Safety of Self-Driving Cars" is accepted at IET Intelligent Transport System 2022.
-- \[08-20-2021\] "Time-Aware Coverage Criteria for Testing of AI-Enabled Hybrid Control Systems" is accepted at ASE LBR 2021.
-- \[04-20-2021\] "SDLV: Verification of Steering Angle Safety for Self-Driving Cars" is accepted at FAC 2021.
-- \[04-18-2021\] "Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness" is accepted at CAV 2021.
-- \[02-24-2021\] "On the Effectiveness of Signal Rescaling in Hybrid System Falsification" is accepted at NFM 2021.
+- \[2025-03-05\] "Automated Generation of Benchmarks for Falsification of STL Specifications" is accepted at TCAD 2025.
+- \[2024-11-03\] "SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences" is accepted at TOSEM 2024.
+- \[2024-09-11\] Give an oral presentation at the Top Conference/Journal Special Talk (トップカンファレンス・トップ論文誌特別講演), JSSST 2024.
+- \[2024-06-13\] Join AAAI 2025 as a PC Member.
+- \[2024-03-22\] "Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications" is accepted at GECCO 2024.
+- \[2023-09-18\] Join the National Institute of Informatics for a six-month research internship, supervised by Prof. Fuyuki ISHIKAWA and Paolo Arcaini.
+- \[2023-07-13\] Join AAAI 2024 as a PC Member.
+- \[2023-02-08\] "FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria" is accepted at ICSE 2023 as Journal-First Paper.
+- \[2022-12-22\] "Towards Building Reliable AI-Enabled Cyber-Physical Systems" is accepted at the Doctoral Symposium, FM 2023.
+- \[2022-08-31\] Give a poster presentation at the Demo/Poster Session (デモ・ポスターセッション), JSSST 2022.
+- \[2022-08-10\] Join AAAI 2023 as a PC Member.
+- \[2022-07-21\] "FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria" is accepted at TSE 2022.
+- \[2022-01-11\] "When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward" is accepted at ICSE SEIP 2022.
+- \[2022-01-08\] "An Verification Framework for Behavioral Safety of Self-Driving Cars" is accepted at IET Intelligent Transport System 2022.
+- \[2021-08-20\] "Time-Aware Coverage Criteria for Testing of AI-Enabled Hybrid Control Systems" is accepted at ASE LBR 2021.
+- \[2021-04-20\] "SDLV: Verification of Steering Angle Safety for Self-Driving Cars" is accepted at FAC 2021.
+- \[2021-04-18\] "Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness" is accepted at CAV 2021.
+- \[2021-02-24\] "On the Effectiveness of Signal Rescaling in Hybrid System Falsification" is accepted at NFM 2021.
 
 == About me
 I am a PhD candidate in the [https://www.isee.kyushu-u.ac.jp/ Department of Information Science and Electrical Engineering (ISEE)], Kyushu University, under the guidance of Prof. [http://stap.ait.kyushu-u.ac.jp/~zhao/ Jianjun Zhao]. My research mainly focuses on the quality assurance of AI-enabled cyber-physical systems (AI-CPSs). 
 
 == Education 
-- Ph.D. in Advanced Information Technology, Kyushu University, Oct. 2020 - Present
+- Ph.D. in Advanced Information Technology, Kyushu University, Oct. 2020 - Mar. 2025
 - M.S. in Software Engineering, Dalian University of Technology, Sept. 2018 - Jun. 2020
 - B.S. in Network Engineering, Dalian University of Technology, Sept. 2014 - Jun. 2018
 
 == Research Interests 
 - Software Testing, Formal Methods, Cyber-Physical Systems
-# - Computer Vision, Camera Calibration
+
 
 # == Visitors
 
-
-# ~~~
-# {}{raw}
-# <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=n&d=9oU5miR44bAnmmihj7y2aTWsxV-VZ_qsDpiTg7O-jqI'></script>
-# ~~~
-
 ~~~
 {}{raw}
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=0&t=n&d=9oU5miR44bAnmmihj7y2aTWsxV-VZ_qsDpiTg7O-jqI'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=n&d=9oU5miR44bAnmmihj7y2aTWsxV-VZ_qsDpiTg7O-jqI'></script>
 ~~~
