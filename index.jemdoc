@@ -3,17 +3,19 @@
 
 ~~~
 {}{img_left}{photos/pic1.jpg}{alt text}{210px}{270px}
-[https://lyudeyun.github.io Deyun Lyu], Ph.D candidate\n
-Kyushu University \n 
-Fukuoka, Japan \n
+[https://lyudeyun.github.io Deyun Lyu], Research Fellow \n
+National Institute of Informatics \n 
+Tokyo, Japan \n
 
-Email: lyu.deyun.107@s.kyushu-u.ac.jp \n
+Email: lyudeyun@nii.ac.jp \n
 \[[https://scholar.google.com/citations?hl=zh-CN&user=8HQY-fQAAAAJ Google Scholar]\]\[[CV.pdf Curriculem Vitae]\] \n
 ~~~
 
 at Tokyo, Japan. (Dec 29, 2020)
 
 == News
+- \[2025-04-23\] "Fault Localization of AI-Enabled Cyber-Physical Systems by Exploiting Temporal Neuron Activation" is accepted at JSS 2025.
+- \[2025-04-15\] Join NII as a research fellow. 
 - \[2025-03-05\] "Automated Generation of Benchmarks for Falsification of STL Specifications" is accepted at TCAD 2025.
 - \[2024-11-03\] "SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences" is accepted at TOSEM 2024.
 - \[2024-09-11\] Give an oral presentation at the Top Conference/Journal Special Talk (トップカンファレンス・トップ論文誌特別講演), JSSST 2024.
@@ -33,16 +35,21 @@ at Tokyo, Japan. (Dec 29, 2020)
 - \[2021-04-18\] "Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness" is accepted at CAV 2021.
 - \[2021-02-24\] "On the Effectiveness of Signal Rescaling in Hybrid System Falsification" is accepted at NFM 2021.
 
-== About me
-I am a PhD candidate in the [https://www.isee.kyushu-u.ac.jp/ Department of Information Science and Electrical Engineering (ISEE)], Kyushu University, under the guidance of Prof. [http://stap.ait.kyushu-u.ac.jp/~zhao/ Jianjun Zhao]. My research mainly focuses on the quality assurance of AI-enabled cyber-physical systems (AI-CPSs). 
+== About Me
 
-== Education 
+I am currently a research fellow in [https://www.nii.ac.jp/en/faculty/architecture/ Information Systems Architecture Science Research Division], [https://www.nii.ac.jp/ National Institute of Informatics]. 
+Before that, I received my PhD from [https://www.isee.kyushu-u.ac.jp/ Department of Information Science and Electrical Engineering (ISEE)], [https://www.kyushu-u.ac.jp/en/ Kyushu University].
+My supervisor was Prof. [http://stap.ait.kyushu-u.ac.jp/~zhao/ Jianjun Zhao], and I was co-advised by Prof. [https://group-mmm.org/~arcaini/ Paolo Arcaini] and Prof. [https://choshina.github.io/ Zhenya Zhang]. 
+My research interests mainly focus on quality assurance of AI-enabled cyber-physical systems (AI-enabled CPSs). 
+
+== Experience
+- Research Fellow at National Institute of Informatics, Apr. 2025 - Present
 - Ph.D. in Advanced Information Technology, Kyushu University, Oct. 2020 - Mar. 2025
 - M.S. in Software Engineering, Dalian University of Technology, Sept. 2018 - Jun. 2020
 - B.S. in Network Engineering, Dalian University of Technology, Sept. 2014 - Jun. 2018
 
 == Research Interests 
-- Software Testing, Formal Methods, Cyber-Physical Systems
+- SE4AI, Formal Methods, Cyber-Physical Systems
 
 == Visitors
 ~~~

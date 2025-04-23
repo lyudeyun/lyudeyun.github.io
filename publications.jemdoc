@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{publications.html}, nofooter
 == Publications
 
-=== Conference
+=== Conference  (^ refers to the co-first author)
 - [https://dl.acm.org/doi/10.1145/3638529.3654078 Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications] \[[pubs/GECCO2024.pdf PDF]\] \[[https://github.com/lyudeyun/ContrRep Code]\]\n
 *Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Fuyuki Ishikawa, Thomas Laurent, Jianjun Zhao \n
 The Genetic and Evolutionary Computation Conference (GECCO 2024)
@@ -20,7 +20,10 @@ The 13th NASA Formal Methods Symposium (NFM 2021)
 
 === Journal
 # \[[ PDF]\]
-- [ Automated Generation of Benchmarks for Falsification of STL Specifications] \n
+- [ Fault Localization of AI-Enabled Cyber-Physical Systems by Exploiting Temporal Neuron Activation] \n
+*Deyun Lyu*, Yi Li, Zhenya Zhang, Paolo Arcaini, Xiao-Yi Zhang, Fuyuki Ishikawa, Jianjun Zhao \n
+Journal of Systems and Software, 2025. (to appear)
+- [https://ieeexplore.ieee.org/document/10922764 Automated Generation of Benchmarks for Falsification of STL Specifications] \n
 Yipei Yan, *Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Jianjun Zhao \n
 IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2025. (to appear)
 - [ SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences] \n
