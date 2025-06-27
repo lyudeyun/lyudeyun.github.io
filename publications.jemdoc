@@ -20,15 +20,15 @@ The 13th NASA Formal Methods Symposium (NFM 2021)
 
 === Journal
 # \[[ PDF]\]
-- [ Fault Localization of AI-Enabled Cyber-Physical Systems by Exploiting Temporal Neuron Activation] \n
+- [https://www.sciencedirect.com/science/article/abs/pii/S0164121225001438 Fault Localization of AI-Enabled Cyber-Physical Systems by Exploiting Temporal Neuron Activation] \n
 *Deyun Lyu*, Yi Li, Zhenya Zhang, Paolo Arcaini, Xiao-Yi Zhang, Fuyuki Ishikawa, Jianjun Zhao \n
-Journal of Systems and Software, 2025. (to appear)
+Journal of Systems and Software, 2025.
 - [https://ieeexplore.ieee.org/document/10922764 Automated Generation of Benchmarks for Falsification of STL Specifications] \n
 Yipei Yan, *Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Jianjun Zhao \n
-IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2025. (to appear)
-- [ SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences] \n
+IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2025.
+- [https://dl.acm.org/doi/10.1145/3705307 SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences] \n
 *Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Xiao-Yi Zhang, Fuyuki Ishikawa, Jianjun Zhao \n
-ACM Transactions on Software Engineering and Methodology, 2024. (to appear)
+ACM Transactions on Software Engineering and Methodology, 2024.
 - [https://ieeexplore.ieee.org/abstract/document/9844247 FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \n
 Zhenya Zhang, *Deyun Lyu*, Paolo Arcaini, Lei Ma, Ichiro Hasuo, Jianjun Zhao \n
 IEEE Transactions on Software Engineering, 2023, 49(4): 1842 - 1859.
