@@ -1,14 +1,26 @@
-# jemdoc: menu{MENU}{index.html}, nofooter
+# jemdoc: nomenu, nofooter
 == Deyun Lyu
 
 ~~~
 {}{img_left}{photos/pic1.jpg}{alt text}{210px}{270px}
-[https://lyudeyun.github.io Deyun Lyu], Research Fellow \n
-National Institute of Informatics \n 
-Tokyo, Japan \n
 
-Email: lyudeyun@nii.ac.jp \n
-\[[https://scholar.google.com/citations?hl=zh-CN&user=8HQY-fQAAAAJ Google Scholar]\]\[[CV.pdf Curriculem Vitae]\] \n
+I am currently a Research Fellow at [https://www.nii.ac.jp/ National Institute of Informatics], working in the Trustworthy & Smart Software Engineering Lab led by Prof. [https://research.nii.ac.jp/~f-ishikawa/ Fuyuki ISHIKAWA].
+Before that, I received my PhD from [https://www.isee.kyushu-u.ac.jp/ Department of Information Science and Electrical Engineering (ISEE)], [https://www.kyushu-u.ac.jp/en/ Kyushu University].
+My supervisor was Prof. [http://stap.ait.kyushu-u.ac.jp/~zhao/ Jianjun Zhao], and I was co-advised by Prof. [https://group-mmm.org/~arcaini/ Paolo Arcaini] and Prof. [https://choshina.github.io/ Zhenya Zhang]. 
+My research interests mainly focus on quality assurance of AI-enabled cyber-physical systems (AI-enabled CPSs). 
+
+*Research Interests* (including but not limited to):\n
+SE4AI, Formal Methods,\n
+Trustworthy Cyber-Physical Systems,\n
+Safe Autonomous Driving Systems\n
+
+{{<b><font color="red">I am eager to exchange ideas and explore collaborations with researchers who share these interests.</font></b>}}
+{{<b><font color="red">I am also seeking new research and career opportunities.</font></b>}}
+
+Email: lyudeyun@nii.ac.jp\n
+
+\[[https://scholar.google.com/citations?hl=zh-CN&user=8HQY-fQAAAAJ Google Scholar]\]\[[https://github.com/lyudeyun Github]\]
+\[[https://www.linkedin.com/in/lyudeyun/ LinkedIn]\]\[[CV.pdf Curriculem Vitae]\]
 ~~~
 
 at Tokyo, Japan. (Dec 29, 2020)
@@ -37,20 +49,140 @@ at Tokyo, Japan. (Dec 29, 2020)
 - \[2021-04-18\] "Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness" is accepted at CAV 2021.
 - \[2021-02-24\] "On the Effectiveness of Signal Rescaling in Hybrid System Falsification" is accepted at NFM 2021.
 
-== About Me
-I am currently a Research Fellow at [https://www.nii.ac.jp/ National Institute of Informatics], working in the Trustworthy & Smart Software Engineering Lab led by Prof. [https://research.nii.ac.jp/~f-ishikawa/ Fuyuki ISHIKAWA].
-Before that, I received my PhD from [https://www.isee.kyushu-u.ac.jp/ Department of Information Science and Electrical Engineering (ISEE)], [https://www.kyushu-u.ac.jp/en/ Kyushu University].
-My supervisor was Prof. [http://stap.ait.kyushu-u.ac.jp/~zhao/ Jianjun Zhao], and I was co-advised by Prof. [https://group-mmm.org/~arcaini/ Paolo Arcaini] and Prof. [https://choshina.github.io/ Zhenya Zhang]. 
-My research interests mainly focus on quality assurance of AI-enabled cyber-physical systems (AI-enabled CPSs). 
-
 == Experience
 - Research Fellow at National Institute of Informatics, Apr. 2025 - Present
 - Ph.D. in Advanced Information Technology, Kyushu University, Oct. 2020 - Mar. 2025
 - M.S. in Software Engineering, Dalian University of Technology, Sept. 2018 - Jun. 2020
 - B.S. in Network Engineering, Dalian University of Technology, Sept. 2014 - Jun. 2018
 
-== Research Interests 
-- SE4AI, Formal Methods, Cyber-Physical Systems
+== Publications († denotes co-first authorship)
+=== Conference 
+- [https://dl.acm.org/doi/10.1145/3638529.3654078 Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications] \[[pubs/GECCO2024.pdf PDF]\] \[[https://github.com/lyudeyun/ContrRep Code]\]\n
+*Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Fuyuki Ishikawa, Thomas Laurent, Jianjun Zhao \n
+The Genetic and Evolutionary Computation Conference (GECCO 2024)
+- [https://dl.acm.org/doi/10.1145/3510457.3513049 When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward] \n
+(SEIP - Software Engineering in Practice) \n
+Jiayang Song†, *Deyun Lyu†*, Zhenya Zhang, Zhijie Wang, Tianyi Zhang, Lei Ma \n
+The 44th International Conference on Software Engineering (ICSE SEIP 2022)
+# \[[pubs/CAV2021.pdf PDF]\]
+- [https://link.springer.com/chapter/10.1007/978-3-030-81685-8_29 Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness] \n
+Zhenya Zhang, *Deyun Lyu*, Paolo Arcaini, Lei Ma, Ichiro Hasuo, Jianjun Zhao \n
+The 33th International Conference on Computer-Aided Verification (CAV 2021)
+# \[[pubs/NFM2021.pdf PDF]\]
+- [https://link.springer.com/chapter/10.1007/978-3-030-76384-8_24 On the Effectiveness of Signal Rescaling in Hybrid System Falsification] \[[https://github.com/choshina/FalSTAR-NFM Code]\] \n
+Zhenya Zhang, *Deyun Lyu*, Paolo Arcaini, Lei Ma, Ichiro Hasuo, Jianjun Zhao \n
+The 13th NASA Formal Methods Symposium (NFM 2021)
+
+=== Journal
+# \[[ PDF]\]
+- [https://www.sciencedirect.com/science/article/abs/pii/S0164121225001438 Fault Localization of AI-Enabled Cyber-Physical Systems by Exploiting Temporal Neuron Activation] \[[pubs/JSS2025.pdf PDF]\] \n
+*Deyun Lyu*, Yi Li, Zhenya Zhang, Paolo Arcaini, Xiao-Yi Zhang, Fuyuki Ishikawa, Jianjun Zhao \n
+Journal of Systems and Software, 2025.
+- [https://ieeexplore.ieee.org/document/10922764 Automated Generation of Benchmarks for Falsification of STL Specifications] \n
+Yipei Yan, *Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Jianjun Zhao \n
+IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2025.
+- [https://dl.acm.org/doi/10.1145/3705307 SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences] \[[pubs/TOSEM2025.pdf PDF]\] \n
+*Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Xiao-Yi Zhang, Fuyuki Ishikawa, Jianjun Zhao \n
+ACM Transactions on Software Engineering and Methodology, 2024.
+- [https://ieeexplore.ieee.org/abstract/document/9844247 FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \n
+Zhenya Zhang, *Deyun Lyu*, Paolo Arcaini, Lei Ma, Ichiro Hasuo, Jianjun Zhao \n
+IEEE Transactions on Software Engineering, 2023, 49(4): 1842 - 1859.
+# \[[pubs/IET_Intelligent_Transport_Systems2022.pdf PDF]\]
+- [https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/itr2.12162 An Verification Framework for Behavioral Safety of Self-Driving Cars] \n
+Huihui Wu, *Deyun Lyu*, Yanan Zhang, Gang Hou, Masahiko Watanabe, Jie Wang, Weiqiang Kong \n
+IET Intelligent Transport Systems, 2022, 16(5): 630-647.
+# \[[pubs/FAC2021.pdf PDF]\]
+- [https://link.springer.com/article/10.1007/s00165-021-00539-2 SDLV: Verification of Steering Angle Safety for Self-Driving Cars] \n
+Huihui Wu, *Deyun Lyu*, Tengxiang Cui, Gang Hou, Masahiko Watanabe, Weiqiang Kong \n
+Formal Aspects of Computing, 2021, 33, 325-341.
+
+=== Workshop & Presentation & Poster
+# \[[ PDF]\]
+- [https://jssst2024.wordpress.com/ Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications] \[[pubs/JSSST41_Oral.pdf PDF]\] \n
+Top Conference/Journal Special Talk (トップカンファレンス・トップ論文誌特別講演), 日本ソフトウェア科学会第41回大会 (JSSST 41), 2024, Osaka, Japan.
+- [https://fm2023.isp.uni-luebeck.de/index.php/co-located-events Towards Building Reliable AI-Enabled Cyber-Physical Systems] \[[pubs/FM2023_DS.pdf PDF]\] \n
+Doctoral Symposium, The 26th International Symposium on Formal Methods (FM 2023).
+- [https://jssst2022.wordpress.com/program/ FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \[[pubs/JSSST39_Poster.pdf PDF]\] \n
+Demo/Poster Session (デモ・ポスターセッション), 日本ソフトウェア科学会第39回大会 (JSSST 39), 2022, Nagoya, Japan.
+
+=== Patent
+- [https://patents.google.com/patent/US11900634B2/en Method for adaptively detecting chessboard sub-pixel level corner points] \n
+U.S. Patent No.: 11,900,634. \n
+Name(s) of Inventor(s): Wei Zhong, *Deyun Lyu*, Weiqiang Kong, Risheng Liu, Xin Fan, Zhongxuan Luo, Shengquan Li. \n
+- [https://patents.google.com/patent/US20220148213A1/en Method for fully automatically detecting chessboard corner points] \n
+U.S. Patent No.: 12,094,152. \n
+Name(s) of Inventor(s): Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxuan Luo. \n
+- [https://patents.google.com/patent/US20220174256A1/en Method for infrared small target detection based on depth map in complex scene] \n
+U.S. Patent No.: 12,108,022. \n
+Name(s) of Inventor(s): Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxuan Luo. \n
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111243032A& Checkerboard corner full-automatic detection method] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010027789.5 \n
+# Name(s) of Inventor(s): W, Kong, *D. Lyu*, W. Zhong, R. Liu, X. Fan, Z. Luo. \n 
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111209877A& Infrared small target detection method based on depth map in complex scene] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010027793.1 \n
+# Name(s) of Inventor(s): W, Kong, *D. Lyu*, W. Zhong, R. Liu, X. Fan, Z. Luo. \n
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111260731A& Adaptive sub-pixel checkerboard corners detection method] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010027812.0 \n
+# Name(s) of Inventor(s): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111291747A& A depth-image based method for detecting small colored targets under complex scene] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010028302.5 \n
+# Name(s) of Inventor(s): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111260732A& A corner detection method based on universal calibration board for visible-light and infrared camera] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010027822.4 \n
+# Name(s) of Inventor(s): W, Kong, *D. Lyu*, W. Zhong, R. Liu, X. Fan, Z. Luo. \n
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111242991A& A fast registration method for visible-light and infrared camera] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010027821.X \n
+# Name(s) of Inventor(s): *D. Lyu*, W. Zhong, W. Kong, R. Liu, X. Fan, Z. Luo. \n
+# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111243033A& Method for optimizing external parameters of binocular camera] \n
+# Filing date: 2020\/01\/10 \n
+# Application No.: CN202010028307.8 \n
+# Name(s) of Inventor(s): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
+
+== Research Experiences
+- Visiting Researcher at [https://www.nii.ac.jp/ National Institute of Informatics], Sep 2023 - Feb 2024, Tokyo, Japan \n
+1. DNN Repair of AI-enabled cyber-physical systems \n
+Work with [https://group-mmm.org/~arcaini/ Paolo Arcaini] and [https://research.nii.ac.jp/~f-ishikawa/en/ Fuyuki Ishikawa], supported by the MIRAI-eAI Project.
+- SPRING Research Fellow, Kyushu University, Oct 2021 - Sep 2023, Fukuoka, Japan \n
+- Junior Research Engineer at [ North Automatic Control Technology Institute], Jun 2018 - Sep 2019, Taiyuan, China \n
+1. Corner Detection \n
+Present an efficient checkerboard corner full-automatic detection method, using traditional techniques such as binarization, edge detection. \n
+2. Camera Calibration \n
+Present an efficient method for optimizing external parameters of binocular camera. \n
+3. Target Detection \n
+Persent an infrared small target detection method based on depth map in complex scene. \n
+
+== Professional Services
+- Chair: \n
+[https://conf.researchr.org/home/fm-2026 Web Chair, FM 2026] \n
+
+- PC Member: \n
+[https://conf.researchr.org/committee/atva-2025/atva-2025-artifact-evaluation-committee ATVA 2025 Artifact Evaluation], AAAI 2025, AAAI 2024, AAAI 2023 \n
+
+- Reviewer: \n
+TOSEM 2025, IROS 2025, ICECCS 2024, [https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1sEXnn1Xjpe/pdf ICSE 2021], ICML 2022 \n
+
+- Shadow Reviewer: \n
+TSE, TOSEM, ICSE, ASE, FSE, ISSTA, EMSOFT, ICST, TASE, EMSE, TR, CAIN ……
+
+== Teaching Assistant Experiences
+- Python Programming Exercises (Pythonプログラミング演習) (for undergraduate students), Summer 2024
+- Python Programming Exercises (Pythonプログラミング演習) (for undergraduate students), Summer 2023
+- Machine Learning Systems Engineering (for graduate students), Summer 2021
+
+== Awards
+- [https://www.ipsj.or.jp/award/se-award2.html 2025 Distinguished Research Award from IPSJ/SIGSE (2025年度情報処理学会ソフトウェア工学研究会卓越研究賞)]
+- [ Ph.D. dissertation selected as a 2025 IPSJ SIG-SE Recommended Doctoral Thesis (研究会推薦博士論文), Information Processing Society of Japan]
+- [https://www.jst.go.jp/jisedai/spring/ 次世代研究者挑戦的研究プログラム], Supported by the Japan Science and Technology Agency (JST) \n
+- [https://www.kyushu-u.ac.jp/f/42046/2021kenkyushien.pdf Kyushu University Graduate Research Support Scholarship (九州大学大学院研究支援奨学金)]
+
+== Conference Travel Awards
+- GECCO Student Travel Grant ($600 USD), The Genetic and Evolutionary Computation Conference (GECCO 2024) \n
 
 == Visitors
 ~~~
