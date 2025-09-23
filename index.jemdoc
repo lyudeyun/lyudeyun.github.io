@@ -10,9 +10,10 @@ My supervisor was Prof. [http://stap.ait.kyushu-u.ac.jp/~zhao/ Jianjun Zhao], an
 My research interests mainly focus on quality assurance of AI-enabled cyber-physical systems (AI-enabled CPSs). 
 
 *Research Interests* (including but not limited to):\n
-SE4AI, Formal Methods,\n
-Trustworthy Cyber-Physical Systems,\n
-Safe Autonomous Driving Systems\n
+- Trustworthy Cyber-Physical Systems
+- Safe Autonomous Driving Systems
+- SE4AI
+- Formal Verification and Validation
 
 {{<b><font color="red">I am eager to exchange ideas and explore collaborations with researchers who share these interests.</font></b>}}
 {{<b><font color="red">I am also seeking new research and career opportunities.</font></b>}}
@@ -56,14 +57,14 @@ at Tokyo, Japan. (Dec 29, 2020)
 - B.S. in Network Engineering, Dalian University of Technology, Sept. 2014 - Jun. 2018
 
 == Publications († denotes co-first authorship)
-=== Conference 
+=== Conference Papers
 - [https://dl.acm.org/doi/10.1145/3638529.3654078 Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications] \[[pubs/GECCO2024.pdf PDF]\] \[[https://github.com/lyudeyun/ContrRep Code]\]\n
 *Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Fuyuki Ishikawa, Thomas Laurent, Jianjun Zhao \n
 The Genetic and Evolutionary Computation Conference (GECCO 2024)
 - [https://dl.acm.org/doi/10.1145/3510457.3513049 When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward] \n
 (SEIP - Software Engineering in Practice) \n
 Jiayang Song†, *Deyun Lyu†*, Zhenya Zhang, Zhijie Wang, Tianyi Zhang, Lei Ma \n
-The 44th International Conference on Software Engineering (ICSE SEIP 2022)
+The 44th International Conference on Software Engineering (ICSE-SEIP 2022)
 # \[[pubs/CAV2021.pdf PDF]\]
 - [https://link.springer.com/chapter/10.1007/978-3-030-81685-8_29 Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness] \n
 Zhenya Zhang, *Deyun Lyu*, Paolo Arcaini, Lei Ma, Ichiro Hasuo, Jianjun Zhao \n
@@ -74,7 +75,6 @@ Zhenya Zhang, *Deyun Lyu*, Paolo Arcaini, Lei Ma, Ichiro Hasuo, Jianjun Zhao \n
 The 13th NASA Formal Methods Symposium (NFM 2021)
 
 === Journal
-# \[[ PDF]\]
 - [https://www.sciencedirect.com/science/article/abs/pii/S0164121225001438 Fault Localization of AI-Enabled Cyber-Physical Systems by Exploiting Temporal Neuron Activation] \[[pubs/JSS2025.pdf PDF]\] \n
 *Deyun Lyu*, Yi Li, Zhenya Zhang, Paolo Arcaini, Xiao-Yi Zhang, Fuyuki Ishikawa, Jianjun Zhao \n
 Journal of Systems and Software, 2025.
@@ -86,103 +86,86 @@ IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2
 ACM Transactions on Software Engineering and Methodology, 2024.
 - [https://ieeexplore.ieee.org/abstract/document/9844247 FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \n
 Zhenya Zhang, *Deyun Lyu*, Paolo Arcaini, Lei Ma, Ichiro Hasuo, Jianjun Zhao \n
-IEEE Transactions on Software Engineering, 2023, 49(4): 1842 - 1859.
-# \[[pubs/IET_Intelligent_Transport_Systems2022.pdf PDF]\]
-- [https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/itr2.12162 An Verification Framework for Behavioral Safety of Self-Driving Cars] \n
+IEEE Transactions on Software Engineering, 2023.
+- [https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/itr2.12162 An Verification Framework for Behavioral Safety of Self-Driving Cars] \[[pubs/IET_Intelligent_Transport_Systems2022.pdf PDF]\] \n
 Huihui Wu, *Deyun Lyu*, Yanan Zhang, Gang Hou, Masahiko Watanabe, Jie Wang, Weiqiang Kong \n
-IET Intelligent Transport Systems, 2022, 16(5): 630-647.
-# \[[pubs/FAC2021.pdf PDF]\]
-- [https://link.springer.com/article/10.1007/s00165-021-00539-2 SDLV: Verification of Steering Angle Safety for Self-Driving Cars] \n
+IET Intelligent Transport Systems, 2022.
+- [https://link.springer.com/article/10.1007/s00165-021-00539-2 SDLV: Verification of Steering Angle Safety for Self-Driving Cars] \[[pubs/FAC2021.pdf PDF]\] \n
 Huihui Wu, *Deyun Lyu*, Tengxiang Cui, Gang Hou, Masahiko Watanabe, Weiqiang Kong \n
-Formal Aspects of Computing, 2021, 33, 325-341.
+Formal Aspects of Computing, 2021.
 
-=== Workshop & Presentation & Poster
-# \[[ PDF]\]
+=== Invited Talks, Presentations, and Posters
+- [https://ses.sigse.jp/2025/program.html SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences] \n
+IPSJ/SIGSE Software Engineering Symposium (ソフトウェアエンジニアリングシンポジウム 2025), Waseda University, Tokyo, Japan, Sept. 2025.
 - [https://jssst2024.wordpress.com/ Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications] \[[pubs/JSSST41_Oral.pdf PDF]\] \n
-Top Conference/Journal Special Talk (トップカンファレンス・トップ論文誌特別講演), 日本ソフトウェア科学会第41回大会 (JSSST 41), 2024, Osaka, Japan.
-- [https://fm2023.isp.uni-luebeck.de/index.php/co-located-events Towards Building Reliable AI-Enabled Cyber-Physical Systems] \[[pubs/FM2023_DS.pdf PDF]\] \n
-Doctoral Symposium, The 26th International Symposium on Formal Methods (FM 2023).
+Top Conference/Journal Special Talk (トップカンファレンス・トップ論文誌特別講演), 41st Annual Conference of the Japan Society for Software Science and Technology (日本ソフトウェア科学会第 41 回大会), Ritsumeikan University, Osaka, Japan, Sept. 2024.
 - [https://jssst2022.wordpress.com/program/ FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \[[pubs/JSSST39_Poster.pdf PDF]\] \n
-Demo/Poster Session (デモ・ポスターセッション), 日本ソフトウェア科学会第39回大会 (JSSST 39), 2022, Nagoya, Japan.
+Demo/Poster Session (デモ・ポスターセッション), 39th Annual Conference of the Japan Society for Software Science and Technology (日本ソフトウェア科学会第39回大会), Nanzan University, Nagoya, Japan, Sept. 2022.
 
-=== Patent
-- [https://patents.google.com/patent/US11900634B2/en Method for adaptively detecting chessboard sub-pixel level corner points] \n
-U.S. Patent No.: 11,900,634. \n
-Name(s) of Inventor(s): Wei Zhong, *Deyun Lyu*, Weiqiang Kong, Risheng Liu, Xin Fan, Zhongxuan Luo, Shengquan Li. \n
-- [https://patents.google.com/patent/US20220148213A1/en Method for fully automatically detecting chessboard corner points] \n
-U.S. Patent No.: 12,094,152. \n
-Name(s) of Inventor(s): Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxuan Luo. \n
-- [https://patents.google.com/patent/US20220174256A1/en Method for infrared small target detection based on depth map in complex scene] \n
-U.S. Patent No.: 12,108,022. \n
-Name(s) of Inventor(s): Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxuan Luo. \n
-# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111243032A& Checkerboard corner full-automatic detection method] \n
-# Filing date: 2020\/01\/10 \n
-# Application No.: CN202010027789.5 \n
-# Name(s) of Inventor(s): W, Kong, *D. Lyu*, W. Zhong, R. Liu, X. Fan, Z. Luo. \n 
-# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111209877A& Infrared small target detection method based on depth map in complex scene] \n
-# Filing date: 2020\/01\/10 \n
-# Application No.: CN202010027793.1 \n
-# Name(s) of Inventor(s): W, Kong, *D. Lyu*, W. Zhong, R. Liu, X. Fan, Z. Luo. \n
-# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111260731A& Adaptive sub-pixel checkerboard corners detection method] \n
-# Filing date: 2020\/01\/10 \n
-# Application No.: CN202010027812.0 \n
-# Name(s) of Inventor(s): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
-# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111291747A& A depth-image based method for detecting small colored targets under complex scene] \n
-# Filing date: 2020\/01\/10 \n
-# Application No.: CN202010028302.5 \n
-# Name(s) of Inventor(s): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
-# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111260732A& A corner detection method based on universal calibration board for visible-light and infrared camera] \n
-# Filing date: 2020\/01\/10 \n
-# Application No.: CN202010027822.4 \n
-# Name(s) of Inventor(s): W, Kong, *D. Lyu*, W. Zhong, R. Liu, X. Fan, Z. Luo. \n
-# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111242991A& A fast registration method for visible-light and infrared camera] \n
-# Filing date: 2020\/01\/10 \n
-# Application No.: CN202010027821.X \n
-# Name(s) of Inventor(s): *D. Lyu*, W. Zhong, W. Kong, R. Liu, X. Fan, Z. Luo. \n
-# - [https://le.cnki.net/KCMS/detail/detail.aspx?dbcode=CRJT_SCPD&dbname=SCPD2020&filename=CN111243033A& Method for optimizing external parameters of binocular camera] \n
-# Filing date: 2020\/01\/10 \n
-# Application No.: CN202010028307.8 \n
-# Name(s) of Inventor(s): W. Zhong, *D. Lyu*, W. Kong, R. Liu, X. Fan, Z. Luo, S. Li. \n
+=== Patents
+- [https://patents.google.com/patent/US11900634B2/en Method for Adaptively Detecting Chessboard Sub-Pixel Level Corner Points] \n
+U.S. Patent, No. 11,900,634, Granted.\n
+Inventors: Wei Zhong, *Deyun Lyu*, Weiqiang Kong, Risheng Liu, Xin Fan, Zhongxuan Luo, Shengquan Li. \n
+- [https://patents.google.com/patent/US20220148213A1/en Method for Fully Automatically Detecting Chessboard Corner Points.] \n
+U.S. Patent, No. 12,094,152, Granted.\n
+Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxuan Luo. \n
+- [https://patents.google.com/patent/US20220174256A1/en Method For Infrared Small Target Detection Based On Depth Map In Complex Scene.] \n
+U.S. Patent, No. 12,108,022, Granted.\n
+Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxuan Luo. \n
 
-== Research Experiences
-- Visiting Researcher at [https://www.nii.ac.jp/ National Institute of Informatics], Sep 2023 - Feb 2024, Tokyo, Japan \n
-1. DNN Repair of AI-enabled cyber-physical systems \n
-Work with [https://group-mmm.org/~arcaini/ Paolo Arcaini] and [https://research.nii.ac.jp/~f-ishikawa/en/ Fuyuki Ishikawa], supported by the MIRAI-eAI Project.
-- SPRING Research Fellow, Kyushu University, Oct 2021 - Sep 2023, Fukuoka, Japan \n
-- Junior Research Engineer at [ North Automatic Control Technology Institute], Jun 2018 - Sep 2019, Taiyuan, China \n
-1. Corner Detection \n
-Present an efficient checkerboard corner full-automatic detection method, using traditional techniques such as binarization, edge detection. \n
-2. Camera Calibration \n
-Present an efficient method for optimizing external parameters of binocular camera. \n
-3. Target Detection \n
-Persent an infrared small target detection method based on depth map in complex scene. \n
+== Research Experience
+
+=== [https://www.jst.go.jp/mirai/jp/program/super-smart/JPMJMI20B8.html Engineerable AI Project]
+- Visiting Researcher, [https://www.nii.ac.jp/ National Institute of Informatics], Sept. 2023 - Feb. 2024, Tokyo, Japan\n
+1. Developed a fault localisation approach to localise faulty weights in DNN controllers.\n
+2. Proposed the first search-based repair approach for DNN controllers of AI-CPSs.\n
+=== Vehicle-Mounted Visible–Infrared Stereo Vision Perception Unit
+- Research Assistant, [https://en.dlut.edu.cn/ Dalian University of Technology], June 2018 - Sept. 2019, Dalian, China\n
+1. Designed automated sub-pixel chessboard corner detection methods and implemented them as practical calibration tools.\n
+2. Developed efficient external parameter optimization and r registration approaches for visible–infrared stereo vision perception systems.\n
+3. Proposed a depth map-based method for detecting small infrared/colour targets in complex scenes.\n
 
 == Professional Services
-- Chair: \n
-[https://conf.researchr.org/home/fm-2026 Web Chair, FM 2026] \n
+=== Journal
+- Reviewer, ACM Transactions on Software Engineering and Methodology (TOSEM 2025)
+- Reviewer, Empirical Software Engineering (EMSE)
+- Reviewer, IEEE Transactions on Reliability (TRel)
+- Reviewer, Research Directions: Cyber-Physical Systems
+=== Conference
+- [https://conf.researchr.org/home/fm-2026 Web Chair], International Symposium on Formal Methods (FM 2026)
+- [https://conf.researchr.org/committee/atva-2025/atva-2025-artifact-evaluation-committee PC Member], International Symposium on Automated Technology for Verification and Analysis (ATVA 2025) - Artifact Evaluation Track
+- PC Member, Association for the Advancement of Artificial Intelligence (AAAI 2023, 2024, 2025)
+- [https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1sEXnn1Xjpe/pdf Reviewer], IEEE/ACM International Conference on Software Engineering (ICSE 2021)
+- Shadow Reviewer, IEEE/ACM International Conference on Automated Software Engineering (ASE)
+- Shadow Reviewer, ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE)
+- Shadow Reviewer, International Symposium on Software Testing and Analysis (ISSTA)
+- Reviewer, International Conference on Machine Learning (ICML 2022)
+- Shadow Reviewer, International Conference on Embedded Software (EMSOFT)
+- Shadow Reviewer, IEEE International Conference on Software Testing, Verification and Validation (ICST)
+- Reviewer, International Conference on Engineering of Complex Computer Systems (ICECCS 2024)
+- Shadow Reviewer, International Symposium on Theoretical Aspects of Software Engineering (TASE)
+- Shadow Reviewer, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025)
+- Shadow Reviewer, International Conference on AI Engineering-Software Engineering for AI (CAIN)
 
-- PC Member: \n
-[https://conf.researchr.org/committee/atva-2025/atva-2025-artifact-evaluation-committee ATVA 2025 Artifact Evaluation], AAAI 2025, AAAI 2024, AAAI 2023 \n
-
-- Reviewer: \n
-TOSEM 2025, IROS 2025, ICECCS 2024, [https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1sEXnn1Xjpe/pdf ICSE 2021], ICML 2022 \n
-
-- Shadow Reviewer: \n
-TSE, TOSEM, ICSE, ASE, FSE, ISSTA, EMSOFT, ICST, TASE, EMSE, TR, CAIN ……
-
-== Teaching Assistant Experiences
-- Python Programming Exercises (Pythonプログラミング演習) (for undergraduate students), Summer 2024
-- Python Programming Exercises (Pythonプログラミング演習) (for undergraduate students), Summer 2023
-- Machine Learning Systems Engineering (for graduate students), Summer 2021
+== Teaching Assistantships
+- Python Programming Exercises (Pythonプログラミング演習) (for undergraduate students), Summer 2024, Kyushu University
+- Python Programming Exercises (Pythonプログラミング演習) (for undergraduate students), Summer 2023, Kyushu University
+- C++ Programming Exercises, Fall 2019, Dalian University of Technology
+- C Programming Exercises, Spring 2019, Dalian University of Technology
+- Operating Systems Practicum, Fall 2018, Dalian University of Technology
 
 == Awards
-- [https://www.ipsj.or.jp/award/se-award2.html 2025 Distinguished Research Award from IPSJ/SIGSE (2025年度情報処理学会ソフトウェア工学研究会卓越研究賞)]
-- [ Ph.D. dissertation selected as a 2025 IPSJ SIG-SE Recommended Doctoral Thesis (研究会推薦博士論文), Information Processing Society of Japan]
-- [https://www.jst.go.jp/jisedai/spring/ 次世代研究者挑戦的研究プログラム], Supported by the Japan Science and Technology Agency (JST) \n
-- [https://www.kyushu-u.ac.jp/f/42046/2021kenkyushien.pdf Kyushu University Graduate Research Support Scholarship (九州大学大学院研究支援奨学金)]
+- [https://www.ipsj.or.jp/award/se-award2.html 2025 IPSJ SIG-SE Excellent Research Award (情報処理学会 ソフトウェア工学研究会 年度卓越研究賞)], Aug. 2025.
+- Ph.D. Dissertation selected as 2025 IPSJ SIG-SE Recommended Doctoral Dissertation (情報処理学会 ソフトウェア工学研究会 2025年度推薦博士論文), Information Processing Society of Japan, June 2025.
+- GECCO 2024 Student Travel Grant (USD 600), ACM Special Interest Group on Genetic and Evolutionary Computation, May 2024.
+- [https://www.jst.go.jp/jisedai/spring/ JST-SPRING, 次世代研究者挑戦的研究プログラム] (JPY 2,400,000/year), Supported by the Japan Science and Technology Agency (JST), Oct.2021 - Sept. 2023.
+- [https://www.kyushu-u.ac.jp/f/42046/2021kenkyushien.pdf Kyushu University Graduate Research Support Scholarship (九州大学大学院研究支援奨学金)] (JPY 250,000), Kyushu University, Sept. 2021.
+- First-Class Scholarship of the Graduate School (CNY 19,600/year), Dalian University of Technology, Sept. 2018 - June 2020.
 
-== Conference Travel Awards
-- GECCO Student Travel Grant ($600 USD), The Genetic and Evolutionary Computation Conference (GECCO 2024) \n
+== Research Grants and Funding
+- Principal Investigator, Support for Pioneering Research Initiated by the Next Generation (次世代研究者挑戦的研究プログラム)\n
+  Japan Science and Technology Agency (JST), Oct. 2021 – Sept. 2023\n
+  Grant No. JPMJSP2136, Amount: JPY 500,000 annually (total JPY 1,000,000).\n 
 
 == Visitors
 ~~~
