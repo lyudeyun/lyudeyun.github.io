@@ -27,6 +27,8 @@ Email: lyudeyun@nii.ac.jp\n
 at Nara, Japan. (Nov 25, 2025)
 
 == News
+- \[2025-12-22\] "ARCH-COMP25 Category Report: Falsification" now is available.
+- \[2025-12-02\] "Coordinating Speech with Touch Input and Visual Cues in Human–Robot Interaction: A Multimodal System Evaluated through Metamorphic Testing" is accepted at HRI 2026.
 - \[2025-11-25\] Give an invited talk on my PhD dissertation at the IPSJ/SIGSE 221st Software Engineering Research Symposium.
 - \[2025-11-18\] Give a presentation of our work SpectAcle at the Journal-First Track, ASE 2025.
 - \[2025-11-16\] Give a presentation of our work ContrRep at the Hot-off-the-Press Track, SSBSE 2025.
@@ -61,6 +63,12 @@ at Nara, Japan. (Nov 25, 2025)
 
 == Publications († denotes co-first authorship)
 === Conference Papers
+- [https://easychair.org/publications/paper/xX5W ARCH-COMP25 Category Report: Falsification] \n
+Tanmay Khandait, *Deyun Lyu†*, Paolo Arcaini, Georgios Fainekos, Federico Formica, Sauvik Gon, Abdelrahman Hekal, Atanu Kundu, Claudio Menghi, Giulia Pedrielli, Rajarshi Ray, Quinn Thibeault, Masaki Waga and Zhenya Zhang \n
+The 12nd International Workshop on Applied Verification of Continuous and Hybrid Systems.
+- [ Coordinating Speech with Touch Input and Visual Cues in Human–Robot Interaction: A Multimodal System Evaluated through Metamorphic Testing] \n
+Massimo Donini, Paolo Arcaini, Michael Oliverio, Fuyuki Ishikawa, Alessandro Mazzei, *Deyun Lyu*, Cristina Gena \n
+The 21st Annual ACM/IEEE International Conference on Human-Robot Interaction (HRI 2026)
 - [https://dl.acm.org/doi/10.1145/3638529.3654078 Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications] \[[pubs/GECCO2024.pdf PDF]\] \[[https://github.com/lyudeyun/ContrRep Code]\]\n
 *Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Fuyuki Ishikawa, Thomas Laurent, Jianjun Zhao \n
 The Genetic and Evolutionary Computation Conference (GECCO 2024)
