@@ -192,5 +192,7 @@ Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxua
 == Visitors
 ~~~
 {}{raw}
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=n&d=9oU5miR44bAnmmihj7y2aTWsxV-VZ_qsDpiTg7O-jqI'></script>
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=vnMOjCgplqHH1aL7AheuoDrbQIvbWJbcJzzdhyB6sfY&cl=ffffff&w=a"></script>
 ~~~
+
+
