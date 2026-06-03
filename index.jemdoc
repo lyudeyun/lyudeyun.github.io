@@ -189,8 +189,14 @@ Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxua
   Japan Science and Technology Agency (JST), Oct. 2021 – Sept. 2023\n
   Grant No. JPMJSP2136, Amount: JPY 500,000 annually (total JPY 1,000,000).\n 
 
-## Visitors
+== Visitors
 ~~~
 {}{raw}
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=vnMOjCgplqHH1aL7AheuoDrbQIvbWJbcJzzdhyB6sfY&cl=ffffff&w=250"></script>
+<div style="width:250px; margin:auto;">
+  <script
+    type="text/javascript"
+    id="mapmyvisitors"
+    src="//mapmyvisitors.com/map.js?d=vnMOjCgplqHH1aL7AheuoDrbQIvbWJbcJzzdhyB6sfY&cl=ffffff&w=a">
+  </script>
+</div>
 ~~~
