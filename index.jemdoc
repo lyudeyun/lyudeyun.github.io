@@ -192,11 +192,13 @@ Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxua
 == Visitors
 ~~~
 {}{raw}
-<div style="width:250px; margin:auto;">
-  <script
-    type="text/javascript"
-    id="mapmyvisitors"
-    src="//mapmyvisitors.com/map.js?d=vnMOjCgplqHH1aL7AheuoDrbQIvbWJbcJzzdhyB6sfY&cl=ffffff&w=a">
-  </script>
+<div style="margin: 30px 0; display: flex; justify-content: center;">
+  <div style="max-width: 250px;">
+    <script
+      type="text/javascript"
+      id="mapmyvisitors"
+      src="//mapmyvisitors.com/map.js?d=vnMOjCgplqHH1aL7AheuoDrbQIvbWJbcJzzdhyB6sfY&cl=ffffff&w=250">
+    </script>
+  </div>
 </div>
 ~~~
