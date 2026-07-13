@@ -2,7 +2,7 @@
 == Deyun Lyu
 
 ~~~
-{}{img_left}{photos/Nara_Nov_2025.jpg}{alt text}{210px}{270px}
+{}{img_left}{photos/Nara_Nov_2025.jpg}{Photo at Nara, Japan}{210px}{270px}
 
 I am currently a Research Fellow at [https://www.nii.ac.jp/ National Institute of Informatics], working in the Trustworthy & Smart Software Engineering Lab led by Prof. [https://research.nii.ac.jp/~f-ishikawa/ Fuyuki ISHIKAWA].
 Before that, I received my PhD from [https://www.isee.kyushu-u.ac.jp/ Department of Information Science and Electrical Engineering (ISEE)], [https://www.kyushu-u.ac.jp/en/ Kyushu University].
@@ -21,7 +21,7 @@ My research interests mainly focus on quality assurance of AI-enabled cyber-phys
 Email: lyudeyun@nii.ac.jp\n
 
 \[[https://scholar.google.com/citations?hl=zh-CN&user=8HQY-fQAAAAJ Google Scholar]\]\[[https://github.com/lyudeyun Github]\]
-\[[https://www.linkedin.com/in/lyudeyun/ LinkedIn]\]\[[CV.pdf Curriculem Vitae]\]
+\[[https://www.linkedin.com/in/lyudeyun/ LinkedIn]\]\[[CV.pdf Curriculum Vitae]\]
 ~~~
 
 at Nara, Japan. (Nov 25, 2025)
@@ -50,7 +50,7 @@ at Nara, Japan. (Nov 25, 2025)
 - \[2022-08-10\] Join AAAI 2023 as a PC Member.
 - \[2022-07-21\] "FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria" is accepted at TSE 2022.
 - \[2022-01-11\] "When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward" is accepted at ICSE SEIP 2022.
-- \[2022-01-08\] "An Verification Framework for Behavioral Safety of Self-Driving Cars" is accepted at IET Intelligent Transport System 2022.
+- \[2022-01-08\] "An Verification Framework for Behavioral Safety of Self-Driving Cars" is accepted at IET Intelligent Transport Systems 2022.
 - \[2021-08-20\] "Time-Aware Coverage Criteria for Testing of AI-Enabled Hybrid Control Systems" is accepted at ASE LBR 2021.
 - \[2021-04-20\] "SDLV: Verification of Steering Angle Safety for Self-Driving Cars" is accepted at FAC 2021.
 - \[2021-04-18\] "Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness" is accepted at CAV 2021.
@@ -69,7 +69,7 @@ at Nara, Japan. (Nov 25, 2025)
 The 37th IEEE International Symposium on Software Reliability Engineering (ISSRE 2026), to appear.
 - [https://easychair.org/publications/paper/xX5W ARCH-COMP25 Category Report: Falsification] \n
 Tanmay Khandait, *Deyun Lyu†*, Paolo Arcaini, Georgios Fainekos, Federico Formica, Sauvik Gon, Abdelrahman Hekal, Atanu Kundu, Claudio Menghi, Giulia Pedrielli, Rajarshi Ray, Quinn Thibeault, Masaki Waga and Zhenya Zhang \n
-The 12nd International Workshop on Applied Verification of Continuous and Hybrid Systems.
+The 12th International Workshop on Applied Verification of Continuous and Hybrid Systems.
 - [ Coordinating Speech with Touch Input and Visual Cues in Human–Robot Interaction: A Multimodal System Evaluated through Metamorphic Testing] \n
 Massimo Donini, Paolo Arcaini, Michael Oliverio, Fuyuki Ishikawa, Alessandro Mazzei, *Deyun Lyu*, Cristina Gena \n
 The 21st Annual ACM/IEEE International Conference on Human-Robot Interaction (HRI 2026)
@@ -83,13 +83,13 @@ The 44th International Conference on Software Engineering (ICSE-SEIP 2022)
 # \[[pubs/CAV2021.pdf PDF]\]
 - [https://link.springer.com/chapter/10.1007/978-3-030-81685-8_29 Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness] \n
 Zhenya Zhang, *Deyun Lyu*, Paolo Arcaini, Lei Ma, Ichiro Hasuo, Jianjun Zhao \n
-The 33th International Conference on Computer-Aided Verification (CAV 2021)
+The 33rd International Conference on Computer-Aided Verification (CAV 2021)
 # \[[pubs/NFM2021.pdf PDF]\]
 - [https://link.springer.com/chapter/10.1007/978-3-030-76384-8_24 On the Effectiveness of Signal Rescaling in Hybrid System Falsification] \[[https://github.com/choshina/FalSTAR-NFM Code]\] \n
 Zhenya Zhang, *Deyun Lyu*, Paolo Arcaini, Lei Ma, Ichiro Hasuo, Jianjun Zhao \n
 The 13th NASA Formal Methods Symposium (NFM 2021)
 
-=== Journal
+=== Journal Papers
 - [https://www.sciencedirect.com/science/article/abs/pii/S0164121225001438 Fault Localization of AI-Enabled Cyber-Physical Systems by Exploiting Temporal Neuron Activation] \[[pubs/JSS2025.pdf PDF]\] \n
 *Deyun Lyu*, Yi Li, Zhenya Zhang, Paolo Arcaini, Xiao-Yi Zhang, Fuyuki Ishikawa, Jianjun Zhao \n
 Journal of Systems and Software, 2025.
@@ -119,9 +119,9 @@ SSBSE 2025 (Hot-off-the-Press Track), Seoul, South Korea, Nov. 2025.
 - [https://ses.sigse.jp/2025/program.html SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences] \n
 IPSJ/SIGSE Software Engineering Symposium (ソフトウェアエンジニアリングシンポジウム 2025), Waseda University, Tokyo, Japan, Sept. 2025.
 - [https://jssst2024.wordpress.com/ Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications] \[[pubs/JSSST41_Oral.pdf PDF]\] \n
-Top Conference/Journal Special Talk (トップカンファレンス・トップ論文誌特別講演), 41st Annual Conference of the Japan Society for Software Science and Technology (日本ソフトウェア科学会第 41 回大会), Ritsumeikan University, Osaka, Japan, Sept. 2024.
+Top Conference/Journal Special Talk (トップカンファレンス・トップ論文誌特別講演), the 41st Annual Conference of the Japan Society for Software Science and Technology (日本ソフトウェア科学会第 41 回大会), Ritsumeikan University, Osaka, Japan, Sept. 2024.
 - [https://jssst2022.wordpress.com/program/ FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \[[pubs/JSSST39_Poster.pdf PDF]\] \n
-Demo/Poster Session (デモ・ポスターセッション), 39th Annual Conference of the Japan Society for Software Science and Technology (日本ソフトウェア科学会第39回大会), Nanzan University, Nagoya, Japan, Sept. 2022.
+Demo/Poster Session (デモ・ポスターセッション), the 39th Annual Conference of the Japan Society for Software Science and Technology (日本ソフトウェア科学会第39回大会), Nanzan University, Nagoya, Japan, Sept. 2022.
 
 === Patents
 - [https://patents.google.com/patent/US11900634B2/en Method for Adaptively Detecting Chessboard Sub-Pixel Level Corner Points] \n
@@ -143,7 +143,7 @@ Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxua
 === Vehicle-Mounted Visible–Infrared Stereo Vision Perception Unit
 - Research Assistant, [https://en.dlut.edu.cn/ Dalian University of Technology], June 2018 - Sept. 2019, Dalian, China\n
 1. Designed automated sub-pixel chessboard corner detection methods and implemented them as practical calibration tools.\n
-2. Developed efficient external parameter optimization and r registration approaches for visible–infrared stereo vision perception systems.\n
+2. Developed efficient external parameter optimization and registration approaches for visible–infrared stereo vision perception systems.\n
 3. Proposed a depth map-based method for detecting small infrared/colour targets in complex scenes.\n
 
 == Professional Services
@@ -155,6 +155,7 @@ Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxua
 - Reviewer, IEEE Transactions on Reliability (TRel)
 - Reviewer, Research Directions: Cyber-Physical Systems
 === Conference
+- [ Reviewer], the 4th CCF Intelligent Vehicles Symposium (CIVS 2026)
 - [ PC Member of Tools and Datasets Track], ASE 2026
 - [ PC Member of ECACPS Workshop], GECCO 2026
 - [https://conf.researchr.org/track/ssbse-2026/ssbse-2026-hot-off-the-press-track PC Member of Hot-off-the-Press Track], SSBSE 2026
@@ -184,13 +185,13 @@ Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxua
 - [https://www.ipsj.or.jp/award/se-award2.html 2025 IPSJ SIG-SE Excellent Research Award (情報処理学会 ソフトウェア工学研究会 年度卓越研究賞)], Aug. 2025.
 - Ph.D. Dissertation selected as 2025 IPSJ SIG-SE Recommended Doctoral Dissertation (情報処理学会 ソフトウェア工学研究会 2025年度推薦博士論文), Information Processing Society of Japan, June 2025.
 - GECCO 2024 Student Travel Grant (USD 600), ACM Special Interest Group on Genetic and Evolutionary Computation, May 2024.
-- [https://www.jst.go.jp/jisedai/spring/ JST-SPRING, 次世代研究者挑戦的研究プログラム] (JPY 2,400,000/year), Supported by the Japan Science and Technology Agency (JST), Oct.2021 - Sept. 2023.
+- [https://www.jst.go.jp/jisedai/spring/ JST-SPRING, 次世代研究者挑戦的研究プログラム] (JPY 2,400,000/year), Supported by the Japan Science and Technology Agency (JST), Oct. 2021 - Sept. 2023.
 - [https://www.kyushu-u.ac.jp/f/42046/2021kenkyushien.pdf Kyushu University Graduate Research Support Scholarship (九州大学大学院研究支援奨学金)] (JPY 250,000), Kyushu University, Sept. 2021.
 - First-Class Scholarship of the Graduate School (CNY 19,600/year), Dalian University of Technology, Sept. 2018 - June 2020.
 
 == Research Grants and Funding
 - Principal Investigator, Support for Pioneering Research Initiated by the Next Generation (次世代研究者挑戦的研究プログラム)\n
-  Japan Science and Technology Agency (JST), Oct. 2021 – Sept. 2023\n
+  Japan Science and Technology Agency (JST), Oct. 2021 - Sept. 2023\n
   Grant No. JPMJSP2136, Amount: JPY 500,000 annually (total JPY 1,000,000).\n 
 
 == Visitors
