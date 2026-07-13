@@ -1,0 +1,602 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage{fontawesome5}
+\usepackage{fontspec}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+% \usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+% \usepackage{xeCJK}
+% \setCJKmainfont{IPAMincho}
+% \setCJKsansfont{IPAGothic}
+% \setCJKmonofont{IPAGothic}
+% \PassOptionsToPackage{}{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{deepPurple}{RGB}{85,26,139}
+\newcommand{\highlight}[1]{\textcolor{deepPurple}{\textbf{#1}}}
+
+\usepackage{emoji}
+\usepackage{luatexja-fontspec}
+
+\setmainfont{Arial}                    % 设置英文无衬线字体
+\setsansfont{Arial}                    % 如果想为无衬线设置单独字体，可以用这行
+\setmonofont{Courier New}              % 英文等宽字体
+% \setCJKmainfont{Noto Sans CJK JP}      % 设置中文主字体为无衬线字体
+% \setCJKsansfont{Noto Sans CJK JP}      % 中文无衬线字体
+% \setCJKmonofont{Noto Sans Mono CJK JP} % 中文等宽字体
+\setmainjfont{Noto Sans CJK JP}        % 主体日文/中文
+\setsansjfont{Noto Sans CJK JP}        % 无衬线
+\setmonojfont{Noto Sans Mono CJK JP}   % 等宽
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\usepackage{multicol}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+\usepackage{todonotes}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{xspace}
+
+\newcommand{\strongit}[1]{\textbf{\textit{#1}}}
+
+% personal data
+\name{Lyu}{Deyun}
+% \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+% \address{}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+% \phone[mobile]{909-839-3097}                   % optional, remove / comment the line if not wanted
+% \phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+% \email{xpan1@swarthmore.edu}                               % optional, remove / comment the line if not wanted
+% \homepage{shawnpan.me}                         % optional, remove / comment the line if not wanted
+% \extrainfo{}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{myPhoto}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% \quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+\newcommand*{\customcventry}[7][.25em]{
+  \begin{tabular}{@{}l} 
+    {\bfseries #4}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\bfseries #5}
+  \end{tabular} \\
+  \begin{tabular}{@{}l} 
+    {\itshape #3}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #2}
+  \end{tabular}
+  \ifx&#7&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#7%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+
+\newcommand*{\customnewcventry}[8][.25em]{%
+  \begin{tabular}{@{}l} 
+    {\bfseries #4} % University
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\bfseries #5} % Date
+  \end{tabular} \\
+  \begin{tabular}{@{}l} 
+    {\itshape #6} % Department
+  \end{tabular}
+  \hfill \\
+  \begin{tabular}{@{}l} 
+    {\itshape #3} % Degree/Position
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #2} % Location
+  \end{tabular}
+  \ifx&#8&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#8%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\newcommand*{\customcvproject}[4][.25em]{
+%   \vfill\noindent
+  \begin{tabular}{@{}l} 
+    {\bfseries #2}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #3}
+  \end{tabular}
+  \ifx&#4&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#4%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+% % === Compact award entry ===
+% \newcommand*\awardcventry[4]{%
+%   % #1 = Date (e.g., "June 2025")
+%   % #2 = Award/Grant title
+%   % #3 = Organization
+%   % #4 = (optional) small note, leave empty if none
+%   \begin{tabularx}{\textwidth}{@{}X r@{}}
+%     \textbf{#2}\\[-0.2ex]{\itshape #3} & {\itshape #1}
+%   \end{tabularx}%
+%   \ifx&#4&%
+%   \else\\[-0.2ex]\begin{minipage}{\textwidth}\small #4\end{minipage}\fi
+%   \par\addvspace{0.6em}%
+% }
+
+% ====== Awards (Minimal) ======
+\usepackage{tabularx,xcolor}
+\newcommand*\awardentry[4]{%
+  % #1 Date   #2 Title   #3 Organization   #4 Optional note
+  \noindent
+  \begin{tabularx}{\textwidth}{@{}>{\bfseries}X r@{}}
+    #2 & {\itshape #1} \\
+  \end{tabularx}\\[-0.2ex]
+  {\itshape #3}%
+  \if\relax\detokenize{#4}\relax\else\\[-0.25ex]{\footnotesize\color{gray!65}#4}\fi
+  \par\addvspace{0.75em}%
+}
+
+% ==============================
+% 学生指导条目（自动带圆点）
+% 用法：\supervisionentry{学生名}{时间}{学校}{地点}{论文题目}
+% ==============================
+\newcommand{\supervisionentry}[5]{%
+  \item \textbf{#1}, #2, #3, #4 \\ % 第一行
+  {#5} % 第二行（论文题目斜体）
+}
+
+\setlength{\tabcolsep}{12pt}
+
+% % 这是 LaTeX 的一个特殊命令，允许访问和修改以 @ 开头的内部宏（这里就是 \@firstname、\@familyname 等）
+% \makeatletter
+% % 重新定义 moderncv 模板中的 \makecvtitle 命令
+% \renewcommand*{\makecvtitle}{%
+%   % 让标题整体 居中
+%   \begin{center}
+%     % ----- name (use theme color) -----
+%     {\textcolor{color1}{\Huge\bfseries\@firstname~\@familyname}}\par
+%     % spacing name <-> address
+%     \vspace*{4mm}
+%     % ----- address -----
+%     \ifx\@addressstreet\@empty\else
+%       {\large\@addressstreet}\par
+%     \fi
+%     % spacing address <-> next content
+%     \vspace*{10mm}
+%   \end{center}
+% }
+% \makeatother
+
+% \makeatletter
+% \renewcommand*{\makecvtitle}{%
+%   \begin{center}
+%     % ----- name -----
+%     {\textcolor{color1}{\Huge\bfseries\@familyname~\@firstname}}\par
+
+%     % ----- title / position -----
+%     \vspace*{2mm}
+%     {\normalsize Research Fellow | National Institute of Informatics}\par
+
+%     % ----- address -----
+%     \vspace*{2mm}
+%     {\normalsize 2-1-2 Hitotsubashi, Chiyoda-ku, Tokyo, Japan}\par
+
+%     % ----- contact info -----
+%     \vspace*{2mm}
+%     \begin{tabular}{c c c c}
+%       \faPhone\enspace +81 080-2567-8231 &
+%       \faEnvelope \enspace lyudeyun@nii.ac.jp & 
+%       \faLink\enspace lyudeyun.github.io & 
+%       % \faGithub\enspace lyudeyun 
+%     \end{tabular}
+%   \end{center}
+% }
+% \makeatother
+
+
+\makeatletter
+\renewcommand*{\makecvtitle}{%
+  \begin{tabularx}{\textwidth}{@{}X r@{}}
+    % 左边：名字 + 联系方式
+    \begin{minipage}[t]{0.80\linewidth}
+      % ----- name -----
+      {\textcolor{color1}{\Huge\bfseries\@familyname~\@firstname}}\par
+
+      % ----- title / position -----
+      \vspace*{2mm}
+      {Research Fellow | National Institute of Informatics}\par
+
+      % ----- contact info -----
+      % \vspace*{2mm}
+      % \begin{tabular}{{@{}lll}}
+      %   \faPhone\enspace +81 080-2567-8231 & \faEnvelope\enspace lyudeyun@nii.ac.jp &
+      %   \faHome\enspace lyudeyun.github.io
+      % \end{tabular}
+      \vspace*{2mm}
+      \begin{tabular}{@{}l@{\hspace{8pt}}l@{\hspace{8pt}}l@{}}
+      \faPhone\enspace 080-2567-8231 & 
+      \faEnvelope\enspace lyudeyun@nii.ac.jp & 
+      \faHome\enspace lyudeyun.github.io
+      \end{tabular}
+      
+      % ----- address -----
+      \vspace*{2mm}
+      {\normalsize \faLocationArrow\enspace 2-1-2 Hitotsubashi, Chiyoda-ku, Tokyo 101-8430, Japan}\par
+    \end{minipage}
+    &
+    % 右边：照片，垂直居中
+    \raisebox{-0.7\height}{\includegraphics[height=120pt]{myphoto.jpg}}
+  \end{tabularx}
+}
+\makeatother
+
+% 导言区
+\makeatletter
+\newcommand{\subsubsection}[1]{%
+  \par\vspace{0.5em}%
+  {\color{color1}\bfseries #1}%
+  \par\vspace{0.25em}%
+}
+\makeatother
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace*{-5mm}
+
+\section{About Me}
+
+I am a Research Fellow at the \href{https://www.nii.ac.jp}{National Institute of Informatics}, working in the Trustworthy $\&$ Smart Software Engineering Lab led by Prof. \href{https://research.nii.ac.jp/~f-ishikawa}{\textbf{Fuyuki Ishikawa}}. I received my Ph.D. in Information Science and Electrical Engineering from Kyushu University under the supervision of Prof. \href{https://stap.ait.kyushu-u.ac.jp/~zhao/}{\textbf{Jianjun Zhao}}, with co-advisors Prof. \href{https://group-mmm.org/~arcaini/}{\textbf{Paolo Arcaini}} and Prof. \href{https://choshina.github.io/}{\textbf{Zhenya Zhang}}. My research interests focus on the quality assurance of AI-enabled cyber-physical systems (AI-CPSs).
+
+\section{Research Interests}
+
+\setlist[itemize]{leftmargin=1.2em,itemsep=0.15em,topsep=0.2em}
+
+\begin{itemize}
+  \item Trustworthy AI-Enabled Cyber-Physical Systems
+  \item Safe and Reliable Autonomous Driving Systems
+  \item Software Engineering for AI Systems (SE4AI)
+  \item Formal Verification and Validation
+\end{itemize}
+
+\section{Education}
+
+{\customcventry{Oct. 2020 -- Mar. 2025}{Ph.D. in Advanced Information Technology}{Kyushu University}{Fukuoka, Japan}{}{Supervisor: \href{https://stap.ait.kyushu-u.ac.jp/~zhao/}{Prof. Jianjun Zhao}, Co-advisors: \href{https://group-mmm.org/~arcaini/}{Prof. Paolo Arcaini}, \href{https://choshina.github.io/}{Prof. Zhenya Zhang} \hfill \textit{Graduated}}}
+\vspace{1mm}
+{\customcventry{Sept. 2018 -- June 2020}{M.S. in Software Engineering}{Dalian University of Technology}{Dalian, China}{}{Supervisor: \href{https://faculty.dlut.edu.cn/kongweiqiang/en/more/828473/gzjlgd/index.htm}{Prof. Weiqiang Kong} \hfill \textit{Graduated}}}
+\vspace{1mm}
+{\customcventry{Sept. 2014 -- June 2018}{B.S. in Network Engineering}{Dalian University of Technology}{Dalian, China}{}{Supervisor: \href{https://faculty.dlut.edu.cn/gaojing/en/zsxx/960677/list/index.htm}{Prof. Jing Gao}\hfill \textit{Graduated}}}
+
+
+
+\section{Work Experience}
+
+{\customnewcventry{Apr. 2025 -- Present}{Research Fellow}{National Institute of Informatics}{Tokyo, Japan}{Information Systems Architecture Science Research Division}{}{}}
+{\customnewcventry{Summer 2024}{Teaching Assistant}{Kyushu University}{Fukuoka, Japan}{Graduate School of Information Science and Electrical Engineering}{}{Course: \textit{Python Programming Exercises (Pythonプログラミング演習)} for undergraduate students}}
+{\customnewcventry{Sept. 2023 -- Mar. 2024}{Visiting Researcher}{National Institute of Informatics}{Tokyo, Japan}{Information Systems Architecture Science Research Division}{}{}}
+{\customnewcventry{Summer 2023}{Teaching Assistant}{Kyushu University}{Fukuoka, Japan}{Graduate School of Information Science and Electrical Engineering}{}{Course: \textit{Python Programming Exercises (Pythonプログラミング演習)} for undergraduate students}}
+{\customcventry{Oct. 2021 -- Sept. 2023}{Research Fellow (JST-SPRING)}{Japan Science and Technology Agency}{Fukuoka, Japan}{}{}}
+% {\customcventry{Summer 2021}{Teaching Assistant}{Kyushu University}{Fukuoka, Japan}{Graduate School of Information Science and Electrical Engineering}{}{Course: \textit{Machine Learning Systems Engineering (機械学習システム工学)} for graduate students}}
+{\customnewcventry{Oct. 2020 -- Sept. 2021}{Research Assistant}{Kyushu University}{Fukuoka, Japan}{Graduate School of Information Science and Electrical Engineering}{}{}}
+{\customnewcventry{Fall 2019}{Teaching Assistant}{Dalian University of Technology}{Dalian, China}{School of Software Technology}{}{Course: \textit{C++ Programming Exercises} for undergraduate students}}
+{\customnewcventry{Spring 2019}{Teaching Assistant}{Dalian University of Technology}{Dalian, China}{School of Software Technology}{}{Course: \textit{C Programming Exercises} for undergraduate students}}
+{\customnewcventry{Fall 2018}{Teaching Assistant}{Dalian University of Technology}{Dalian, China}{School of Software Technology}{}{Course: \textit{Operating Systems Practicum} for undergraduate students}}
+{\customnewcventry{Sept. 2018 -- June. 2020}{Research Assistant}{Dalian University of Technology}{Dalian, China}{School of Software Technology}{}{}}
+
+
+\section{Publications}
+
+\subsection{Quality Assurance of AI-Enabled Cyber-Physical Systems}
+
+\begin{itemize}
+    \item \hypertarget{pub:AI-CPS-P7}{}\textbf{[AI-CPS-P7]} \textbf{Deyun Lyu}, Jiayang Song, Zhenya Zhang, Zhijie Wang, Tianyi Zhang, Lei Ma and Jianjun Zhao. ``Repair of DNN Control Policies via STL-Guided Patch Synthesis." IEEE Transactions on Reliability. (TREL 2025, the flagship journal in reliability engineering, \highlight{CORE Rank A}, Impact Factor: 5.7, under review)
+    \item \hypertarget{pub:AI-CPS-P6}{}\textbf{[AI-CPS-P6]} \textbf{Deyun Lyu}, Zhenya Zhang, Paolo Arcaini, Thomas Laurent, Borui Zhang, Fuyuki Ishikawa, and Jianjun Zhao. ``ContrRep: Search-Based Repair of DNN Controllers of AI-Enabled CPSs." Automated Software Engineering. (ASEJ 2025, \highlight{CORE Rank B}, Impact Factor: 3.1, under review)
+    \item \hypertarget{pub:AI-CPS-P5}{}\textbf{[AI-CPS-P5]} \textbf{Deyun Lyu}, Yi Li, Zhenya Zhang, Paolo Arcaini, Xiao-Yi Zhang, Fuyuki Ishikawa and Jianjun Zhao. ``\href{https://www.sciencedirect.com/science/article/abs/pii/S0164121225001438}{Fault Localisation of AI-Enabled Cyber-Physical Systems by Exploiting Temporal Neuron Activation.}" Journal of Systems and Software. (JSS 2025, \highlight{CORE Rank A}, Impact Factor: 4.1) 
+    \item \hypertarget{pub:AI-CPS-P4}{}\textbf{[AI-CPS-P4]} \textbf{Deyun Lyu}, Zhenya Zhang, Paolo Arcaini, Xiao-Yi Zhang, Fuyuki Ishikawa and Jianjun Zhao. ``\href{https://dl.acm.org/doi/10.1145/3705307}{SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences.}" ACM Transactions on Software Engineering and Methodology. (TOSEM 2025, a top-tier journal in software engineering, \highlight{CORE Rank A*}, Impact Factor: 6.6, \highlight{IPSJ SIG-SE Excellent Research Award})
+    \item \hypertarget{pub:AI-CPS-P3}{}\textbf{[AI-CPS-P3]} \textbf{Deyun Lyu}, Zhenya Zhang, Paolo Arcaini, Fuyuki Ishikawa, Thomas Laurent and Jianjun Zhao. ``\href{https://dl.acm.org/doi/10.1145/3638529.3654078}{Search-Based Repair of DNN Controllers of AI-Enabled CPS Guided by System-Level Specifications.}"  Proceedings of the Genetic and Evolutionary Computation Conference. (GECCO 2024, a top-tier conference in computational intelligence, \highlight{CORE Rank A})
+    \item \hypertarget{pub:AI-CPS-P2}{}\textbf{[AI-CPS-P2]} Zhenya Zhang, \textbf{Deyun Lyu}, Paolo Arcaini, Lei Ma, Ichiro Hasuo and Jianjun Zhao. ``\href{https://ieeexplore.ieee.org/document/9844247}{FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria.}" IEEE Transactions on Software Engineering. (TSE 2023, the flagship journal in software engineering, \highlight{CORE Rank A*}, Impact Factor: 6.5)
+    \item \hypertarget{pub:AI-CPS-P1}{}\textbf{[AI-CPS-P1]} Jiayang Song, \textbf{Deyun Lyu}*, Zhenya Zhang, Zhijie Wang, Tianyi Zhang and Lei Ma. ``\href{https://dl.acm.org/doi/10.1145/3510457.3513049}{When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward.}" 44th International Conference on Software Engineering: Software Engineering in Practice. (ICSE 2022, the flagship conference in software engineering, \highlight{Co-first author}, \highlight{CORE Rank A*})
+\end{itemize}
+
+\subsection{Quality Assurance of Cyber-Physical Systems}
+
+\begin{itemize}
+    \item \textbf{[CPS-P4]} Tanmay Khandait, \textbf{Deyun Lyu}*, (12 other authors). ``ARCH-COMP 2025 Category Report: Falsification.`` 12th International Workshop on Applied Verification of Continuous and Hybrid Systems. (\highlight{Co-first author}, to appear)
+    \item \hypertarget{pub:CPS-P3}{}\textbf{[CPS-P3]} Yipei Yan, \textbf{Deyun Lyu}, Zhenya Zhang, Paolo Arcaini and Jianjun Zhao. ``\href{https://ieeexplore.ieee.org/document/10922764}{Automated Generation of Benchmarks for Falsification of STL Specifications.}" IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems. (TCAD 2025, the flagship journal in electronic design automation, \highlight{CCF A}, Impact Factor: 2.9)
+    \item \hypertarget{pub:CPS-P2}{}\textbf{[CPS-P2]} Zhenya Zhang, \textbf{Deyun Lyu}, Paolo Arcaini, Lei Ma, Ichiro Hasuo and Jianjun Zhao. ``\href{https://link.springer.com/chapter/10.1007/978-3-030-81685-8_29}{Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness.}" 33rd International Conference on Computer-Aided Verification. (CAV 2021, the flagship conference in formal methods, \highlight{CORE Rank A*})
+    \item \textbf{[CPS-P1]} Zhenya Zhang, \textbf{Deyun Lyu}, Paolo Arcaini, Lei Ma, Ichiro Hasuo and Jianjun Zhao. ``\href{https://link.springer.com/chapter/10.1007/978-3-030-76384-8_24}{On the Effectiveness of Signal Rescaling in Hybrid System Falsification.}" 13th NASA Formal Methods Symposium. (NFM 2021)
+\end{itemize}
+
+\subsection{Quality Assurance of Autonomous Driving Systems} 
+\noindent \textbf{Note:} \textit{These works were conducted during my time at Dalian University of Technology. While my official academic name is ``Deyun Lyu", one of them ([ADS-Verf-P1]) lists me as ``Deyun Lv" following pinyin conventions.}
+
+\begin{itemize}
+    \item \textbf{[ADS-Verf-P2]} Huihui Wu, \textbf{Deyun Lyu}, Y. Zhang, Gang Hou, Masahiko Watanabe, Jie Wang and Weiqiang Kong. ``\href{https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/itr2.12162}{A Verification Framework for Behavioural Safety of Self-Driving Cars.}" IET Intelligent Transport Systems. (\highlight{CCF C}, Impact Factor: 2.3)
+    \item \textbf{[ADS-Verf-P1]} Huihui Wu, \textbf{Deyun Lyu}, TengXiang Cui, Gang Hou, Masahiko Watanabe and Weiqiang Kong. ``\href{https://link.springer.com/article/10.1007/s00165-021-00539-2}{SDLV: Verification of Steering Angle Safety for Self-Driving Cars.}" Formal Aspects of Computing. (FAC 2021, \highlight{CCF B}, Impact Factor: 1.8)
+\end{itemize}
+
+\section{Invited Talks, Presentations, and Posters}
+
+\subsection{Invited Talks}
+
+\begin{itemize}
+    \item \textbf{[IT3]} ``Quality Assurance of AI-Enabled Cyber-Physical Systems." The 220th IPSJ/SIGSE Software Engineering Workshop (第221回 ソフトウェア工学研究発表会), 東大寺総合文化センター, Nara, Japan. (\textit{Scheduled, Nov. 2025})
+    % \item \textbf{[IT3]} ``Quality Assurance of AI-Enabled Cyber-Physical Systems." IPSJ/SIGSE Software Engineering Symposium (ソフトウェアエンジニアリングシンポジウム 2025), Waseda University, Tokyo, Japan. (\textit{Sept. 2025})
+    \item \textbf{[IT2]} ``SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences." \href{https://ses.sigse.jp/2025/program.html}{IPSJ/SIGSE Software Engineering Symposium (ソフトウェアエンジニアリングシンポジウム 2025)}, Waseda University, Tokyo, Japan. (\textit{Sept. 2025})
+    \item \textbf{[IT1]} ``Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications." Top Conference/Journal Special Talk (トップカンファレンス・トップ論文誌特別講演), \href{https://jssst2024.wordpress.com/program/}{41st Annual Conference of the Japan Society for Software Science and Technology (日本ソフトウェア科学会第41回大会)}, Ritsumeikan University, Osaka, Japan. (\textit{Sept. 2024})
+\end{itemize}
+
+\subsection{Presentations}
+
+\begin{itemize}
+    \item \textbf{[Pres4]} ``SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences." Journal-First Track, 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025), Seoul, South Korea. (\textit{Scheduled, Nov. 2025})
+    \item \textbf{[Pres3]} ``Fault Localisation of AI-Enabled Cyber-Physical Systems by Exploiting Temporal Neuron Activation." Journal-First Track, 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025), Seoul, South Korea. (\textit{Scheduled, Nov. 2025})
+    \item \textbf{[Pres2]} ``Search-Based Repair of DNN Controllers of AI-Enabled CPS Guided by System-Level Specifications." Proceedings of the Genetic and Evolutionary Computation Conference (GECCO 2024), Melbourne, Australia. (\textit{July 2025})
+    \item \textbf{[Pres1]} ``Towards Building Reliable AI-Enabled Cyber-Physical Systems." Doctoral Symposium, 26th International Symposium on Formal Methods (FM 2023), Lübeck, Germany. (\textit{Mar. 2023, Accepted, but not presented due to COVID-19 travel restrictions.})
+\end{itemize}
+
+\subsection{Posters}
+
+\begin{itemize}
+    \item \textbf{[Poster1]} ``FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria." Demo/Poster Session (デモ・ポスターセッション), 39th Annual Conference of the Japan Society for Software Science and Technology (日本ソフトウェア科学会第39回大会), Nanzan University, Nagoya, Japan. (\textit{Sept. 2022})
+\end{itemize}
+
+\section{Patents}
+\hypertarget{sec:patents}{}
+\noindent \textbf{Note}: \textit{These patents were filed during my time at Dalian University of Technology. In U.S. patents, my name appears as ``Deyun Lv", following pinyin conventions. In Chinese patents, my name appears as ``吕德运". My official academic name is ``Deyun Lyu".}
+
+\subsection{U.S. Patents}
+\begin{itemize}
+    \item \textbf{[US-Pt3]} Weiqiang Kong, \textbf{Deyun Lyu}, Zhong Wei, Risheng Liu, Xin Fan and Zhongxuan Luo. ``\href{https://patents.google.com/patent/US20220174256A1/en}{Method For Infrared Small Target Detection Based On Depth Map In Complex Scene.}" US Patent, No. 12,108,022, Oct. 2024. (Granted, Serve as the primary contributor)
+    \item \textbf{[US-Pt2]} Weiqiang Kong, \textbf{Deyun Lyu}, Zhong Wei, Risheng Liu, Xin Fan and Zhongxuan Luo. ``\href{https://patents.google.com/patent/US20220148213A1/en}{Method for Fully Automatically Detecting Chessboard Corner Points.}" US Patent, No. 12,094,152, Sept. 2024. (Granted, Serve as the primary contributor)
+    \item \textbf{[US-Pt1]} Zhong Wei, \textbf{Deyun Lyu}, Weiqiang Kong, Risheng Liu, Xin Fan, Zhongxuan Luo and Shengquan Li. ``\href{https://patents.google.com/patent/US11900634B2/en}{Method for Adaptively Detecting Chessboard Sub-Pixel Level Corner Points.}" US Patent, No. 11,900,634, Feb. 2024. (Granted, Serve as the primary contributor)
+\end{itemize}
+
+\subsection{Chinese Patents}
+
+\begin{itemize}
+    \item \textbf{[CN-Pt6]} Weiqiang Kong, \textbf{Deyun Lyu}, Wei Zhong, Risheng Liu, Xin Fan, Zhongxuan Luo. ``\href{https://patents.google.com/patent/CN111243032B/en}{A Fully Automatic Checkerboard Corner Detection Method}", CN Patent, No. CN111243032B, May 2023. (Granted, Serve as the primary contributor)
+    \item \textbf{[CN-Pt5]} Weiqiang Kong, \textbf{Deyun Lyu}, Wei Zhong, Risheng Liu, Xin Fan, Zhongxuan Luo. ``\href{https://patents.google.com/patent/CN111209877B/en}{An Infrared Small Target Detection Method Based on Depth Map in Complex Scenes}", CN Patent, No. CN111209877B, May 2023. (Granted, Serve as the primary contributor)
+    \item \textbf{[CN-Pt4]} Wei Zhong, \textbf{Deyun Lyu}, Weiqiang Kong, Risheng Liu, Xin Fan, Zhongxuan Luo, Shengquan Li. ``\href{https://patents.google.com/patent/CN111260731B/en}{A Checkerboard Sub-pixel Level Corner Adaptive Detection Method}", CN Patent, No. CN111260731B, May 2023. (Granted, Serve as the primary contributor)
+    \item \textbf{[CN-Pt3]} Wei Zhong, \textbf{Deyun Lyu}, Weiqiang Kong, Risheng Liu, Xin Fan, Zhongxuan Luo, Shengquan Li. ``\href{https://patents.google.com/patent/CN111291747B/en}{A Color Small Target Detection Method Based on Depth Map in Complex Scenes}", CN Patent, No. CN111291747B, June 2023. (Granted, Serve as the primary contributor)
+    \item \textbf{[CN-Pt2]} \textbf{Deyun Lyu}, Wei Zhong, Weiqiang Kong, Risheng Liu, Xin Fan, Zhongxuan Luo. ``\href{https://patents.google.com/patent/CN111242991B/en}{Method for Quickly Registering Visible Light and Infrared Camera}", CN Patent, No. CN111242991B, Sept 2022. (Granted)
+    \item \textbf{[CN-Pt1]} Wei Zhong, \textbf{Deyun Lyu}, Weiqiang Kong, Risheng Liu, Xin Fan, Zhongxuan Luo, Shengquan Li. ``\href{https://patents.google.com/patent/CN111243033B/en}{Method for Optimizing External Parameters of Binocular Camera}", CN Patent, No. CN111243033B, Sept 2022. (Granted, Serve as the primary contributor)
+\end{itemize}
+
+
+\section{Professional Memberships and Services}
+
+\subsection{Academic Memberships}
+\begin{itemize}
+  % \item Member, ACM (Association for Computing Machinery) 
+  \item Member, IEEE (Institute of Electrical and Electronics Engineers) \hfill  
+  \item Member, IPSJ (Information Processing Society of Japan)
+  \item Member, IPSJ SIG-SE (Special Interest Group on Software Engineering)
+\end{itemize}
+
+\subsection{Professional Services}
+
+\subsubsection{Journal Paper}
+
+\begin{itemize}
+    \item Reviewer, ACM Transactions on Software Engineering and Methodology (TOSEM)
+    % \item Reviewer, IEEE Transactions on Software Engineering (TSE)
+    \item Reviewer, Empirical Software Engineering (EMSE)
+    \item Reviewer, IEEE Transactions on Reliability (TRel)
+    \item Reviewer, Research Directions: Cyber-Physical Systems
+\end{itemize}
+
+\subsubsection{Conference Paper}
+
+\begin{itemize}
+    \item Web Chair, \href{https://conf.researchr.org/committee/fm-2026/fm-2026-organizing-committee}{International Symposium on Formal Methods (FM 2026)}
+    \item PC Member, \href{https://conf.researchr.org/committee/atva-2025/atva-2025-artifact-evaluation-committee}{International Symposium on Automated Technology for Verification and Analysis (ATVA 2025) – Artifact Evaluation Track}
+    \item PC Member, Association for the Advancement of Artificial Intelligence (AAAI 2023, 2024, 2025)
+    \item Reviewer, International Conference on Software Engineering (ICSE)
+    \item Reviewer, IEEE/ACM International Conference on Automated Software Engineering (ASE)
+    \item Reviewer, ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE)
+    \item Reviewer, International Symposium on Software Testing and Analysis (ISSTA)
+    \item Reviewer, International Conference on Machine Learning (ICML)
+    \item Reviewer, International Conference on Embedded Software (EMSOFT)
+    \item Reviewer, IEEE International Conference on Software Testing, Verification and Validation (ICST)
+    \item Reviewer, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)    
+    \item Reviewer, International Conference on Engineering of Complex Computer Systems (ICECCS)
+    \item Reviewer, International Symposium on Theoretical Aspects of Software Engineering (TASE)
+    \item Reviewer, International Conference on AI Engineering – Software Engineering for AI (CAIN)
+\end{itemize}
+
+
+\section{Other Research Experience}
+
+\subsection{Quality Assurance of End-to-End Autonomous Driving Systems}
+{\customcventry{July 2025 -- Present}{Researcher}{National Institute of Informatics}{Tokyo, Japan}{}
+{Collaboration with Toyota, \href{https://www.jari.or.jp/}{JARI} and \href{https://www.gaio.co.jp/}{GAIO}.
+\begin{itemize}
+    \item Demonstrated the potential of my prior research on end-to-end ADS.
+    \item Developing new fault localisation and repair techniques for large-scale end-to-end controllers.
+\end{itemize}
+}}
+
+\subsection{Testing of Multimodal Social Robots}
+{\customcventry{June 2025 -- Present}{Researcher}{National Institute of Informatics}{Tokyo, Japan}{}
+{Collaboration with University of Turin.
+\begin{itemize}
+  \item Ongoing development of a multimodal-aware metamorphic testing method of social robots (with \href{https://www.softbank.jp/robot/}{Pepper robot} as a case study).
+\end{itemize}
+}}
+
+\subsection{eBPF-assisted Falsification of Temporal Logic Specifications under Noisy Environments}
+{\customcventry{Apr. 2025 -- Present}{Researcher}{National Institute of Informatics}{Tokyo, Japan}{}
+{Collaboration with Kyushu University and University of Bergamo.
+\begin{itemize}
+  \item Ongoing development of an eBPF-assisted falsification framework under noisy environments.
+\end{itemize}
+}}
+
+\subsection{Benchmark Contribution to the \href{https://cps-vo.org/group/ARCH/FriendlyCompetition}{2025 ARCH Falsification Competition}}
+{\customcventry{Apr. 2025 -- June. 2025}{Researcher}{National Institute of Informatics}{Tokyo, Japan}{}
+{ARCH-COMP is a well-established, internationally recognized competition in CPS community.
+\begin{itemize}
+  \item Developed a novel benchmark generation method for falsification\hyperlink{pub:CPS-P3}{[CPS-P3]} and contributed five benchmarks to the 2025 ARCH Falsification Competition.
+  \item Participated in the competition with our falsification tool \textit{ForeSee}\hyperlink{pub:CPS-P2}{[CPS-P2]}.
+\end{itemize}
+}}
+
+\subsection{\texorpdfstring{\href{https://www.jst.go.jp/mirai/jp/program/super-smart/JPMJMI20B8.html}{Engineerable AI Project}}{}}
+{\customcventry{Sept. 2023 -- Mar. 2024}{Visiting Researcher}{National Institute of Informatics}{Tokyo, Japan}{}
+{University research project funding by JST Mirai project (Grant No. JPMJMI20B8).
+\begin{itemize}
+    \item Developed a fault localisation approach to localise faulty weights in DNN controllers.
+    \item Proposed the first search-based repair approach for DNN controllers of AI-CPSs.
+\end{itemize}
+}}
+
+\subsection{\texorpdfstring{\href{https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-23K28062/}{Testing, Analysis, and Repair of AI-Enabled Cyber-Physical Systems}}{}}
+{\customcventry{Apr. 2023 -- Mar. 2025}{Research assistant}{Kyushu University}{Fukuoka, Japan}{}
+{University research project funded by JSPS (Grant No. 23H03372).
+\begin{itemize}
+    \item Designed an approach to localise faulty neurons in DNN controllers of AI-CPSs.
+    \item Developed a data-driven method for automatically generating synthetic benchmarks for falsification.  
+\end{itemize}
+}}
+
+\subsection{\texorpdfstring{\href{https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21H04877/}{機械がバグを修正する時代―擬似オラクル生成・適用と自動バグ修正技術の深化}}{}}
+{\customcventry{Jan. 2021 -- Aug. 2022}{Research assistant}{Kyushu University}{Fukuoka, Japan}{}
+{University research project funded by JSPS (Grant No. 21H04877).
+\begin{itemize}
+    \item Proposed eight time-aware coverage criteria and developed FalsifAI, the first coverage-guided falsification framework for AI-CPSs.
+\end{itemize}
+}}
+
+\subsection{\texorpdfstring{\href{https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-20H04168/}{Comprehensive Analysis and Repairing Techniques for Stateful Deep Learning Systems}}{}}
+{\customcventry{May 2021 -- Jan. 2022}{Research assistant}{Kyushu University}{Fukuoka, Japan}{}
+{University research project funded by JSPS (Grant No. 20H04168).
+\begin{itemize}
+    \item Established the first public benchmarks for AI-enabled CPSs, enabling systematic evaluation and guiding testing research.
+\end{itemize}
+}}
+
+\subsection{Traffic Accident Scene Reconstruction and Preprocessing Using TLS Point Clouds}
+{\customcventry{Sept. 2019 -- June. 2020}{Research Assistant}{Dalian University of Technology}{Dalian, China}{}
+{Collaboration with Guangzhou Traffic Police Department.
+\begin{itemize}
+    \item Developed a 3D point cloud-based system for traffic accident scene investigation and preprocessing.
+    \item Implemented the system as a practical tool and deployed it in practice.
+\end{itemize}
+}}
+
+\subsection{Vehicle-Mounted Visible–Infrared Stereo Vision Perception Unit}
+{\customcventry{June 2018 -- Sept. 2019}{Research Assistant}{Dalian University of Technology}{Dalian, China}{}
+{University–Industry Collaboration Project, resulting in multiple US and CN patents (See Section \hyperlink{sec:patents}{Patents}).
+\begin{itemize}
+    \item Designed automated sub-pixel chessboard corner detection methods and implemented them as practical calibration tools.
+    \item Developed efficient external parameter optimization and r registration approaches for visible–infrared stereo vision perception systems.
+    \item Proposed a depth map-based method for detecting small infrared/colour targets in complex scenes.
+\end{itemize}
+}}
+
+\section{Teaching Assistantships}
+
+\begin{itemize}
+    \supervisionentry{Python Programming Exercises}{Summer 2024}{Kyushu University}{Fukuoka, Japan}{(approx. 60 undergraduate students)}
+    \supervisionentry{Python Programming Exercises}{Summer 2023}{Kyushu University}{Fukuoka, Japan}{(approx. 30 undergraduate students)}
+    % \supervisionentry{Machine Learning Systems Engineering}{Summer 2021}{Kyushu University}{Fukuoka, Japan}{(approx. 30 undergraduate students)}
+    \supervisionentry{C++ Programming Exercises}{Fall 2019}{Dalian University of Technology}{Dalian, China}{(approx. 100 undergraduate students)}
+    \supervisionentry{C Programming Exercises}{Spring 2019}{Dalian University of Technology}{Dalian, China}{(approx. 100 undergraduate students)}
+    \supervisionentry{Operating Systems Practicum}{Fall 2018}{Dalian University of Technology}{Dalian, China}{(approx. 100 undergraduate students)}
+\end{itemize}
+
+\section{Mentoring Experience}
+
+\begin{itemize}
+    \supervisionentry{Chenchang Wang}{Expected to graduate in March 2027}{Kyushu University}{Fukuoka, Japan}{Master's thesis: \emph{eBPF-assisted Falsification of Temporal Logic Specifications under Noisy Environments}}
+    \supervisionentry{Borui Zhang}{Expected to graduate in March 2026}{Kyushu University}{Fukuoka, Japan}{Master's thesis: \emph{ContrRep: Search-Based Repair of DNN Controllers of AI-Enabled CPSs}}
+    \supervisionentry{Yipei Yan}{Graduated in March 2025}{Kyushu University}{Fukuoka, Japan}{Master's thesis: \emph{STL公式に基づくCPSテスト用ベンチマークの自動生成技術}}
+    \supervisionentry{Yi Li}{Graduated in March 2025}{Kyushu University}{Fukuoka, Japan}{Master's thesis: \emph{Tactical: Fault Localization of AI-Enabled Cyber-Physical Systems by Exploiting Temporal Neuron Activation}}
+    \supervisionentry{Ruinan Zhang}{Graduated in June 2022}{Dalian University of Technology}{Dalian, China}{Master's thesis: \emph{Research on Test Prioritization Technique for Deep Neural Networks}}
+\end{itemize}
+
+
+\section{Research Grants and Funding}
+
+\begin{itemize}
+    \item Principal Investigator, Support for Pioneering Research Initiated by the Next Generation (次世代研究者挑戦的研究プログラム), Japan Science and Technology Agency (JST), Oct. 2021 -- Sept. 2023. Grant No. JPMJSP2136. Amount: JPY 500,000 annually (total JPY 1,000,000).
+\end{itemize}
+
+\section{Awards}
+
+\awardentry{Aug. 2025}
+{2025 IPSJ SIG-SE Excellent Research Award (情報処理学会 ソフトウェア工学研究会 2025年度卓越研究賞)}
+{Information Processing Society of Japan, Special Interest Group on Software Engineering (IPSJ SIG-SE)}
+{For our TOSEM 2025 paper entitled ``SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences."}
+
+\awardentry{June 2025}
+{2025 IPSJ SIG-SE Recommended Doctoral Dissertation（情報処理学会 ソフトウェア工学研究会 2025 年度推薦博士論文）}
+{Information Processing Society of Japan, Special Interest Group on Software Engineering (IPSJ SIG-SE)}
+{}
+
+\awardentry{May 2024}
+{GECCO 2024 Student Travel Grant}
+{ACM Special Interest Group on Genetic and Evolutionary Computation (ACM SIGEVO)}
+{(Amount: \$600 USD)}
+
+\awardentry{Oct. 2021 -- Sept. 2023}
+{Support for Pioneering Research Initiated by the Next Generation (JST SPRING, 次世代研究者挑戦的研究プログラム)}
+{Japan Science and Technology Agency (JST)}
+{(Grant No. JPMJSP2136; Amount: JPY 2,400,000 per year)}
+
+\awardentry{Sept. 2021}
+{Graduate School Research Support Scholarship}
+{Kyushu University}
+{(Amount: JPY 250,000)}
+
+\awardentry{Sept. 2018 -- June 2020}
+{First-Class Scholarship of the Graduate School}
+{Dalian University of Technology}
+{(Amount: RMB 19,600 per year)}
+
+
+
+\end{document}
