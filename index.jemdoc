@@ -20,7 +20,7 @@ My research interests mainly focus on quality assurance of AI-enabled cyber-phys
 
 Email: lyudeyun@nii.ac.jp\n
 
-\[[https://scholar.google.com/citations?hl=zh-CN&user=8HQY-fQAAAAJ Google Scholar]\]\[[https://github.com/lyudeyun Github]\]
+\[[https://scholar.google.com/citations?hl=en&user=8HQY-fQAAAAJ Google Scholar]\]\[[https://github.com/lyudeyun Github]\]
 \[[https://www.linkedin.com/in/lyudeyun/ LinkedIn]\]\[[CV.pdf Curriculum Vitae]\]
 ~~~
 
@@ -29,33 +29,17 @@ at Nara, Japan. (Nov 25, 2025)
 == News
 - {{<font color="red" size="1"><b>NEW</b></font>}} \[2026-08-12\] "A Preliminary Evaluation of the Non-determinism of VLAs for Robotic Tasks" is accepted at AISQ 2026 (The 3rd International Workshop on Advanced Intelligent Software Applications, co-located with ISSRE 2026). Congratulations to Antonin!
 - {{<font color="red" size="1"><b>NEW</b></font>}} \[2026-07-13\] "On the Effectiveness of Open-Loop DNN Repair in End-to-End Autonomous Driving Systems" is accepted at ISSRE 2026 (in collaboration with Toyota).
-- \[2025-12-22\] "ARCH-COMP25 Category Report: Falsification" now is available.
+- \[2025-12-22\] "ARCH-COMP25 Category Report: Falsification" is now available.
 - \[2025-12-02\] "Coordinating Speech with Touch Input and Visual Cues in Human–Robot Interaction: A Multimodal System Evaluated through Metamorphic Testing" is accepted at HRI 2026.
 - \[2025-11-25\] Give an invited talk on my PhD dissertation at the IPSJ/SIGSE 221st Software Engineering Research Symposium.
 - \[2025-11-18\] Give a presentation of our work SpectAcle at the Journal-First Track, ASE 2025.
 - \[2025-11-16\] Give a presentation of our work ContrRep at the Hot-off-the-Press Track, SSBSE 2025.
-- \[2025-08-05\] Honored with the 2025 Distinguished Research Award from IPSJ/SIGSE (2025年度情報処理学会ソフトウェア工学研究会卓越研究賞).
+- \[2025-08-05\] Honored with the 2025 IPSJ SIG-SE Excellent Research Award (2025年度情報処理学会ソフトウェア工学研究会卓越研究賞).
 - \[2025-06-27\] My PhD dissertation "Quality Assurance of AI-Enabled Cyber-Physical Systems" was selected for the 2025 IPSJ Doctoral Dissertation Recommendation.
 - \[2025-04-23\] "Fault Localization of AI-Enabled Cyber-Physical Systems by Exploiting Temporal Neuron Activation" is accepted at JSS 2025.
 - \[2025-04-15\] Join NII as a Research Fellow. 
 - \[2025-03-05\] "Automated Generation of Benchmarks for Falsification of STL Specifications" is accepted at TCAD 2025.
 - \[2024-11-03\] "SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences" is accepted at TOSEM 2024.
-- \[2024-09-11\] Give an oral presentation at the Top Conference/Journal Special Talk (トップカンファレンス・トップ論文誌特別講演), JSSST 2024.
-- \[2024-06-13\] Join AAAI 2025 as a PC Member.
-- \[2024-03-22\] "Search-Based Repair of DNN Controllers of AI-Enabled Cyber-Physical Systems Guided by System-Level Specifications" is accepted at GECCO 2024.
-- \[2023-09-18\] Join the National Institute of Informatics for a six-month research internship, supervised by Prof. Fuyuki ISHIKAWA and Paolo Arcaini.
-- \[2023-07-13\] Join AAAI 2024 as a PC Member.
-- \[2023-02-08\] "FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria" is accepted at ICSE 2023 as Journal-First Paper.
-- \[2022-12-22\] "Towards Building Reliable AI-Enabled Cyber-Physical Systems" is accepted at the Doctoral Symposium, FM 2023.
-- \[2022-08-31\] Give a poster presentation at the Demo/Poster Session (デモ・ポスターセッション), JSSST 2022.
-- \[2022-08-10\] Join AAAI 2023 as a PC Member.
-- \[2022-07-21\] "FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria" is accepted at TSE 2022.
-- \[2022-01-11\] "When Cyber-Physical Systems Meet AI: A Benchmark, an Evaluation, and a Way Forward" is accepted at ICSE SEIP 2022.
-- \[2022-01-08\] "An Verification Framework for Behavioral Safety of Self-Driving Cars" is accepted at IET Intelligent Transport Systems 2022.
-- \[2021-08-20\] "Time-Aware Coverage Criteria for Testing of AI-Enabled Hybrid Control Systems" is accepted at ASE LBR 2021.
-- \[2021-04-20\] "SDLV: Verification of Steering Angle Safety for Self-Driving Cars" is accepted at FAC 2021.
-- \[2021-04-18\] "Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness" is accepted at CAV 2021.
-- \[2021-02-24\] "On the Effectiveness of Signal Rescaling in Hybrid System Falsification" is accepted at NFM 2021.
 
 == Experience
 - Research Fellow at National Institute of Informatics, Apr. 2025 - Present
@@ -100,7 +84,7 @@ ACM Transactions on Software Engineering and Methodology, 2024.
 - [https://ieeexplore.ieee.org/abstract/document/9844247 FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \n
 Zhenya Zhang, *Deyun Lyu*, Paolo Arcaini, Lei Ma, Ichiro Hasuo, Jianjun Zhao \n
 IEEE Transactions on Software Engineering, 2023.
-- [https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/itr2.12162 An Verification Framework for Behavioral Safety of Self-Driving Cars] \[[pubs/IET_Intelligent_Transport_Systems2022.pdf PDF]\] \n
+- [https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/itr2.12162 A Verification Framework for Behavioral Safety of Self-Driving Cars] \[[pubs/IET_Intelligent_Transport_Systems2022.pdf PDF]\] \n
 Huihui Wu, *Deyun Lyu*, Yanan Zhang, Gang Hou, Masahiko Watanabe, Jie Wang, Weiqiang Kong \n
 IET Intelligent Transport Systems, 2022.
 - [https://link.springer.com/article/10.1007/s00165-021-00539-2 SDLV: Verification of Steering Angle Safety for Self-Driving Cars] \[[pubs/FAC2021.pdf PDF]\] \n
@@ -172,6 +156,7 @@ Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxua
 - Reviewer, IEEE Transactions on Reliability (TRel 2023)
 
 === Conference
+- [ PC Member], the 38th IEEE International Symposium on Software Reliability Engineering (ISSRE 2027)
 - [https://humanrobotinteraction.org/2027/ Reviewer], the 22nd Annual ACM\/IEEE International Conference on Human-Robot Interaction (HRI 2027)
 - [https://fmasworkshop.github.io/FMAS2026/ PC Member], the 8th International Workshop on Formal Methods for Autonomous Systems (FMAS 2026)
 - [ Reviewer], the 4th CCF Intelligent Vehicles Symposium (CIVS 2026)
@@ -201,17 +186,17 @@ Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxua
 - Operating Systems Practicum, Fall 2018, Dalian University of Technology
 
 == Awards
-- [https://www.ipsj.or.jp/award/se-award2.html 2025 IPSJ SIG-SE Excellent Research Award (情報処理学会 ソフトウェア工学研究会 年度卓越研究賞)], Aug. 2025.
+- [https://www.ipsj.or.jp/award/se-award2.html 2025 IPSJ SIG-SE Excellent Research Award (情報処理学会 ソフトウェア工学研究会 2025年度卓越研究賞)], Aug. 2025.
 - Ph.D. Dissertation selected as 2025 IPSJ SIG-SE Recommended Doctoral Dissertation (情報処理学会 ソフトウェア工学研究会 2025年度推薦博士論文), Information Processing Society of Japan, June 2025.
 - GECCO 2024 Student Travel Grant (USD 600), ACM Special Interest Group on Genetic and Evolutionary Computation, May 2024.
-- [https://www.jst.go.jp/jisedai/spring/ JST-SPRING, 次世代研究者挑戦的研究プログラム] (JPY 2,400,000/year), Supported by the Japan Science and Technology Agency (JST), Oct. 2021 - Sept. 2023.
+- [https://www.jst.go.jp/jisedai/spring/ JST-SPRING, 次世代研究者挑戦的研究プログラム] (Stipend: JPY 2,400,000/year), Supported by the Japan Science and Technology Agency (JST), Oct. 2021 - Sept. 2023.
 - [https://www.kyushu-u.ac.jp/f/42046/2021kenkyushien.pdf Kyushu University Graduate Research Support Scholarship (九州大学大学院研究支援奨学金)] (JPY 250,000), Kyushu University, Sept. 2021.
 - First-Class Scholarship of the Graduate School (CNY 19,600/year), Dalian University of Technology, Sept. 2018 - June 2020.
 
 == Research Grants and Funding
 - Principal Investigator, Support for Pioneering Research Initiated by the Next Generation (次世代研究者挑戦的研究プログラム)\n
   Japan Science and Technology Agency (JST), Oct. 2021 - Sept. 2023\n
-  Grant No. JPMJSP2136, Amount: JPY 500,000 annually (total JPY 1,000,000).\n 
+  Grant No. JPMJSP2136, Research Funding: JPY 500,000 annually (total JPY 1,000,000).\n 
 
 == Visitors
 ~~~
