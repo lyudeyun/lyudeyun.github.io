@@ -80,7 +80,7 @@ Yipei Yan, *Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Jianjun Zhao \n
 IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2025.
 - [https://dl.acm.org/doi/10.1145/3705307 SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences] \[[pubs/TOSEM2025.pdf PDF]\] \n
 *Deyun Lyu*, Zhenya Zhang, Paolo Arcaini, Xiao-Yi Zhang, Fuyuki Ishikawa, Jianjun Zhao \n
-ACM Transactions on Software Engineering and Methodology, 2024.
+ACM Transactions on Software Engineering and Methodology, 2025.
 - [https://ieeexplore.ieee.org/abstract/document/9844247 FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria] \n
 Zhenya Zhang, *Deyun Lyu*, Paolo Arcaini, Lei Ma, Ichiro Hasuo, Jianjun Zhao \n
 IEEE Transactions on Software Engineering, 2023.
@@ -136,7 +136,7 @@ Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxua
 == Research Experience
 
 === [https://www.jst.go.jp/mirai/jp/program/super-smart/JPMJMI20B8.html Engineerable AI Project]
-- Visiting Researcher, [https://www.nii.ac.jp/ National Institute of Informatics], Sept. 2023 - Feb. 2024, Tokyo, Japan\n
+- Visiting Researcher, [https://www.nii.ac.jp/ National Institute of Informatics], Sept. 2023 - Mar. 2024, Tokyo, Japan\n
 1. Developed a fault localisation approach to localise faulty weights in DNN controllers.\n
 2. Proposed the first search-based repair approach for DNN controllers of AI-CPSs.\n
 === Vehicle-Mounted Visible–Infrared Stereo Vision Perception Unit
@@ -157,6 +157,7 @@ Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxua
 - Reviewer, IEEE Transactions on Reliability (TRel 2023)
 
 === Conference
+- [https://conf.researchr.org/track/icst-2027/icst-2027-research-papers PC Member of Research Track], IEEE International Conference on Software Testing, Verification and Validation (ICST 2027)
 - [ PC Member], the 38th IEEE International Symposium on Software Reliability Engineering (ISSRE 2027)
 - [https://humanrobotinteraction.org/2027/ Reviewer], the 22nd Annual ACM\/IEEE International Conference on Human-Robot Interaction (HRI 2027)
 - [https://fmasworkshop.github.io/FMAS2026/ PC Member], the 8th International Workshop on Formal Methods for Autonomous Systems (FMAS 2026)
@@ -182,7 +183,7 @@ Inventors: Weiqiang Kong, *Deyun Lyu*, Wei Zhong, Risheng Liu, Xin Fan, Zhongxua
 == Teaching Assistantships
 - Python Programming Exercises (Pythonプログラミング演習) (for undergraduate students), Summer 2024, Kyushu University
 - Python Programming Exercises (Pythonプログラミング演習) (for undergraduate students), Summer 2023, Kyushu University
-- C++ Programming Exercises, Fall 2019, Dalian University of Technology
+- C\+\+ Programming Exercises, Fall 2019, Dalian University of Technology
 - C Programming Exercises, Spring 2019, Dalian University of Technology
 - Operating Systems Practicum, Fall 2018, Dalian University of Technology
 
